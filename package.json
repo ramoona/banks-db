@@ -14,5 +14,8 @@
     "database",
     "db"
   ],
+  "devDependencies": {
+    "JSV": "^4.0.2"
+  },
   "license": "CC-BY-4.0"
 }
