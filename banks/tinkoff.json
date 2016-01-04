@@ -1,0 +1,12 @@
+{
+  "name": "tinkoff",
+  "prefixes": [
+    521324,
+    437773
+  ],
+  "country": "ru",
+  "localTitle": "Тинькофф Банк",
+  "engTitle": "Tinkoff Bank",
+  "url": "https://www.tinkoff.ru/",
+  "color": "#FFDD2D"
+}

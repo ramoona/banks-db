@@ -1,0 +1,18 @@
+{
+  "name": "sberbank",
+  "prefixes": [
+    427683,
+    63900,
+    67758,
+    427901,
+    54693,
+    427644,
+    427601,
+    427631
+  ],
+  "country": "ru",
+  "localTitle": "Сбербанк" ,
+  "engTitle": "Sberbank",
+  "url": "https://www.sberbank.ru",
+  "color": "#309C0B"
+}

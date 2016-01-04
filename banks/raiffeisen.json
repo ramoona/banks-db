@@ -1,0 +1,12 @@
+{
+  "name": "raiffeisen",
+  "prefixes": [
+    462730,
+    462729
+  ],
+  "country": "ru",
+  "localTitle": "Райффайзенбанк",
+  "engTitle": "Raiffeisenbank",
+  "url": "http://www.raiffeisen.ru/",
+  "color": "#FFF300"
+}
