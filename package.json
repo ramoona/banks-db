@@ -17,5 +17,8 @@
   "devDependencies": {
     "JSV": "^4.0.2"
   },
+  "scripts": {
+    "test": "node lint.js"
+  },
   "license": "CC-BY-4.0"
 }
