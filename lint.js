@@ -1,8 +1,8 @@
-const fs = require("fs");
-const path = require("path");
-const chalk = require("chalk");
+const fs = require('fs');
+const path = require('path');
+const chalk = require('chalk');
 
-const JSV = require("JSV").JSV;
+const JSV = require('JSV').JSV;
 const linter = JSV.createEnvironment();
 
 function readJSON(file, callback) {
@@ -13,24 +13,20 @@ function readJSON(file, callback) {
   });
 }
 
-readJSON("schema.json", schema => {
-  fs.readdir(path.join(__dirname, "banks"), (err, files) => {
+readJSON('schema.json', schema => {
+  fs.readdir(path.join(__dirname, 'banks'), (err, files) => {
     if (err) throw err;
     files.forEach(name => {
-      readJSON("banks/" + name, bank => {
+      readJSON('banks/' + name, bank => {
         const report = linter.validate(bank, schema);
-        if (report.errors.length == 0) {
-          console.log(chalk.green("OK ") + chalk.white(name));
-        }
-        else {
-          console.error(chalk.red("FAIL " + name));
-          report.errors.forEach(error => {
-            console.error(error);
-          });
+        if (report.errors.length === 0) {
+          console.log(chalk.green('OK ') + chalk.white(name));
+        } else {
+          console.error(chalk.red('FAIL ' + name));
+          report.errors.forEach(i => console.error(i));
           process.exit(1);
         }
       });
     });
   });
-})
-
+});
