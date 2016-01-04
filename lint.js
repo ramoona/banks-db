@@ -1,5 +1,6 @@
 var fs = require("fs");
 var path = require("path");
+var chalk = require("chalk");
 
 var JSV = require("JSV").JSV;
 var linter = JSV.createEnvironment();
@@ -19,12 +20,12 @@ readJSON("schema.json", function(schema) {
       readJSON("banks/" + name, function(bank) {
         var report = linter.validate(bank, schema);
         if (report.errors.length == 0) {
-          console.log("OK " + name);
+          console.log(chalk.green("OK ") + chalk.white(name));
         }
         else {
-          console.error("Fail " + name);
+          console.error(chalk.red("FAIL " + name));
           report.errors.forEach(function(error) {
-            console.error(error)
+            console.error(error);
           });
           process.exit(1);
         }
