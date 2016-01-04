@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Bank schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Unique project code for the bank"
+    },
+    "prefixes": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "minimum": 10000
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "country": {
+      "type": "string",
+      "description": "Two letters code of bank country (ISO 3166-1 alpha-2)"
+    },
+    "localTitle": {
+      "type": "string",
+      "description": "Bank name in local language"
+    },
+    "engTitle": {
+      "type": "string",
+      "description": "Bank name in English"
+    },
+    "url": {
+      "type": "string",
+      "description": "Link to official bank website"
+    },
+    "color": {
+      "type": "string",
+      "description": "Bank brand color"
+    }
+  },
+  "required": [
+    "name",
+    "prefixes",
+    "country",
+    "localTitle",
+    "engTitle",
+    "url",
+    "color"
+  ]
+}
+
