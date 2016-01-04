@@ -1,30 +1,30 @@
-var fs = require("fs");
-var path = require("path");
-var chalk = require("chalk");
+const fs = require("fs");
+const path = require("path");
+const chalk = require("chalk");
 
-var JSV = require("JSV").JSV;
-var linter = JSV.createEnvironment();
+const JSV = require("JSV").JSV;
+const linter = JSV.createEnvironment();
 
 function readJSON(file, callback) {
-  fs.readFile(path.join(__dirname, file), function (err, data) {
+  fs.readFile(path.join(__dirname, file), (err, data) => {
     if (err) throw err;
-    var json = JSON.parse(data.toString());
+    const json = JSON.parse(data.toString());
     callback(json);
   });
 }
 
-readJSON("schema.json", function(schema) {
-  fs.readdir(path.join(__dirname, "banks"), function (err, files) {
+readJSON("schema.json", schema => {
+  fs.readdir(path.join(__dirname, "banks"), (err, files) => {
     if (err) throw err;
-    files.forEach(function(name) {
-      readJSON("banks/" + name, function(bank) {
-        var report = linter.validate(bank, schema);
+    files.forEach(name => {
+      readJSON("banks/" + name, bank => {
+        const report = linter.validate(bank, schema);
         if (report.errors.length == 0) {
           console.log(chalk.green("OK ") + chalk.white(name));
         }
         else {
           console.error(chalk.red("FAIL " + name));
-          report.errors.forEach(function(error) {
+          report.errors.forEach(error => {
             console.error(error);
           });
           process.exit(1);
