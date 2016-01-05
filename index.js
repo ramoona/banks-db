@@ -26,4 +26,6 @@ module.exports = function findBank(cardNumber) {
       }
     }
   }
+
+  return false;
 };
