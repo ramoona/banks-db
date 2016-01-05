@@ -41,3 +41,18 @@ test('finds bank by first 5 symbols', t => {
 test('returns false on unknown bank', t => {
   t.same(banksDB('4111111111111111'), false);
 });
+
+test('finds bank by converted to string card number', t => {
+  t.same(banksDB(4377734563802833), {
+    name: 'tinkoff',
+    prefixes: [
+      521324,
+      437773,
+    ],
+    country: 'ru',
+    localTitle: 'Тинькофф Банк',
+    engTitle: 'Tinkoff Bank',
+    url: 'https://www.tinkoff.ru/',
+    color: '#FFDD2D',
+  });
+});

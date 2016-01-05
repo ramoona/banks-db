@@ -7,8 +7,9 @@ const banks = [
 ];
 
 module.exports = function findBank(cardNumber) {
-  const first5 = parseInt(cardNumber.substr(0, 5), 10);
-  const first6 = parseInt(cardNumber.substr(0, 6), 10);
+  const card = cardNumber.toString();
+  const first5 = parseInt(card.substr(0, 5), 10);
+  const first6 = parseInt(card.substr(0, 6), 10);
 
   var i;
   var j;
