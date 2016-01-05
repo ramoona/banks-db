@@ -6,27 +6,19 @@ const banks = [
   require('./banks/vtb24'),
 ];
 
+const prefixes = {};
+
+var i;
+var j;
+for (i = 0; i < banks.length; i++) {
+  for (j = 0; j < banks[i].prefixes.length; j++) {
+    prefixes[banks[i].prefixes[j]] = banks[i];
+  }
+}
+
 module.exports = function findBank(cardNumber) {
   const card = cardNumber.toString().replace(/[^\d]/g, '');
-  const first5 = parseInt(card.substr(0, 5), 10);
-  const first6 = parseInt(card.substr(0, 6), 10);
-
-  var i;
-  var j;
-  var bank;
-  var prefix;
-
-  for (i = 0; i < banks.length; i++) {
-    bank = banks[i];
-
-    for (j = 0; j < bank.prefixes.length; j++) {
-      prefix = bank.prefixes[j];
-
-      if (prefix === first5 || prefix === first6) {
-        return bank;
-      }
-    }
-  }
-
-  return false;
+  const first5 = card.substr(0, 5);
+  const first6 = card.substr(0, 6);
+  return prefixes[first6] || prefixes[first5] || false;
 };
