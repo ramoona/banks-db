@@ -18,10 +18,11 @@
     "JSV": "^4.0.2",
     "chalk": "^1.1.1",
     "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^2.1.1"
+    "eslint-config-airbnb": "^2.1.1",
+    "ava": "^0.9.1"
   },
   "scripts": {
-    "test": "node lint.js && eslint *.js"
+    "test": "ava && node lint.js && eslint *.js"
   },
   "license": "CC-BY-4.0"
 }
