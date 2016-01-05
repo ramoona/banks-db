@@ -71,3 +71,18 @@ test('ignores non-digits symbols in card number', t => {
     color: '#FFDD2D',
   });
 });
+
+test('ignores whitespaces', t => {
+  t.same(banksDB('4627 3045 6380 2833'), {
+    name: 'raiffeisen',
+    prefixes: [
+      462730,
+      462729,
+    ],
+    country: 'ru',
+    localTitle: 'Райффайзенбанк',
+    engTitle: 'Raiffeisenbank',
+    url: 'http://www.raiffeisen.ru/',
+    color: '#FFF300',
+  });
+});
