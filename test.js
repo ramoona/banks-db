@@ -56,3 +56,18 @@ test('finds bank by converted to string card number', t => {
     color: '#FFDD2D',
   });
 });
+
+test('ignores non-digits symbols in card number', t => {
+  t.same(banksDB('43-77-73-45-63-80-28-33'), {
+    name: 'tinkoff',
+    prefixes: [
+      521324,
+      437773,
+    ],
+    country: 'ru',
+    localTitle: 'Тинькофф Банк',
+    engTitle: 'Tinkoff Bank',
+    url: 'https://www.tinkoff.ru/',
+    color: '#FFDD2D',
+  });
+});
