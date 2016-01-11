@@ -23,7 +23,7 @@ fs.readdir(path.join(__dirname, 'banks'), (err, files) => {
       var line = "require('./banks/" + name.replace(/\.json$/, '') + "')";
       if (index.indexOf(line) === -1) {
         console.error(chalk.red('FAIL index.js'));
-        console.error('Missed ' + line);
+        console.error(chalk.white('Missed ' + line));
         process.exit(1);
       }
     });
