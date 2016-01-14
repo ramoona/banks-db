@@ -1,10 +1,10 @@
-# Adding new bank
+# Adding a new bank
 
-1. To submit a pull request, fork the [Banks DB](https://github.com/Ramoona/banks-db) repository and then clone your fork
-2. Create new JSON file in `banks` folder and name it same as your bank title (lowercase)
+1. Fork the [Banks DB](https://github.com/Ramoona/banks-db) repository and then clone your fork.
+2. Create new JSON file in `banks` folder and name it same as your bank title (lowercase).
 3. Fill your JSON with this guide (all properties are required):
     * `name`: bank codename in lowercase (same as your file name)
-    * `prefixes`: array of your bank prefixes (each prefix must contain 5 or 6 digits)
+    * `prefixes`: array of bank prefixes (each prefix must contain 5 or 6 digits)
     * `country`: two letters code of bank country ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2))
     * `localTitle`: bank title in local language
     * `engTitle`: bank title in English
@@ -28,6 +28,6 @@
     }
     ```
 
-4. Make `git push` and then submit a pull request.
+4. Submit a pull request.
 
 
