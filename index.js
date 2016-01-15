@@ -3,6 +3,7 @@ const banks = [
   require('./banks/raiffeisen'),
   require('./banks/sberbank'),
   require('./banks/tinkoff'),
+  require('./banks/yandex'),
   require('./banks/vtb24'),
   require('./banks/mdm'),
 ];
