@@ -1,0 +1,11 @@
+{
+  "name": "citibank",
+  "prefixes": [
+    52759
+  ],
+  "country": "ru",
+  "localTitle": "Ситибанк",
+  "engTitle": "Citibank",
+  "url": "https://www.citibank.ru/",
+  "color": "#0088CF"
+}
