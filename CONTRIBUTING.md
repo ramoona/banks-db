@@ -27,5 +27,5 @@
       "color": "#000"
     }
     ```
-4. Make sure `npm run test` is still green
+4. Make sure `npm test` is still green
 5. Submit a pull request.
