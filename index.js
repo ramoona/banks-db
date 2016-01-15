@@ -5,7 +5,7 @@ const banks = [
   require('./banks/raiffeisen'),
   require('./banks/sberbank'),
   require('./banks/tinkoff'),
-  require('./banks/vtb24')
+  require('./banks/vtb24'),
 ];
 
 const prefixes = {};
