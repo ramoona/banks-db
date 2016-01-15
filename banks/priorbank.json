@@ -1,0 +1,23 @@
+{
+  "name": "priorbank",
+  "prefixes": [
+    413059,
+    416064,
+    417770,
+    437458,
+    445987,
+    458285,
+    471326,
+    472950,
+    480949,
+    491698,
+    542645,
+    548952,
+    558349
+  ],
+  "country": "by",
+  "localTitle": "Приорбанк",
+  "engTitle": "Priorbank",
+  "url": "http://www.priorbank.by",
+  "color": "#FFFF00"
+}

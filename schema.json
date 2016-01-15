@@ -1,3 +1,4 @@
+
 {
   "$schema": "http://json-schema.org/draft-03/schema#",
   "title": "Bank schema",
@@ -14,7 +15,7 @@
         "type": "number",
         "minimum": 10000
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true,
       "required": true
     },
