@@ -1,5 +1,5 @@
 const test = require('ava');
-const banksDB = require('.');
+const banksDB = require('./index');
 
 test('finds bank by first 6 symbols', t => {
   t.same(banksDB('5211784563802833'), {

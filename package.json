@@ -22,7 +22,7 @@
     "ava": "^0.9.1"
   },
   "scripts": {
-    "test": "ava && node lint.js && eslint *.js"
+    "test": "ava && node --harmony lint.js && eslint *.js"
   },
   "license": "CC-BY-4.0"
 }

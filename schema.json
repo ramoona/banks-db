@@ -1,48 +1,47 @@
 {
   "$schema": "http://json-schema.org/draft-03/schema#",
-  "title": "Bank schema",
-  "type": "object",
   "properties": {
-    "name": {
-      "type": "string",
-      "description": "Unique project code for the bank",
-      "required": true
-    },
-    "prefixes": {
-      "type": "array",
-      "items": {
-        "type": "number",
-        "minimum": 10000
-      },
-      "minItems": 1,
-      "uniqueItems": true,
-      "required": true
+    "color": {
+      "description": "Bank brand color",
+      "required": true,
+      "type": "string"
     },
     "country": {
-      "type": "string",
       "description": "Two letters code of bank country (ISO 3166-1 alpha-2)",
-      "required": true
-    },
-    "localTitle": {
-      "type": "string",
-      "description": "Bank name in local language",
-      "required": true
+      "required": true,
+      "type": "string"
     },
     "engTitle": {
-      "type": "string",
       "description": "Bank name in English",
-      "required": true
+      "required": true,
+      "type": "string"
+    },
+    "localTitle": {
+      "description": "Bank name in local language",
+      "required": true,
+      "type": "string"
+    },
+    "name": {
+      "description": "Unique project code for the bank",
+      "required": true,
+      "type": "string"
+    },
+    "prefixes": {
+      "items": {
+        "minimum": 10000,
+        "type": "number"
+      },
+      "minItems": 0,
+      "required": true,
+      "type": "array",
+      "uniqueItems": true
     },
     "url": {
-      "type": "string",
       "description": "Link to official bank website",
-      "required": true
-    },
-    "color": {
-      "type": "string",
-      "description": "Bank brand color",
-      "required": true
+      "required": true,
+      "type": "string"
     }
-  }
+  },
+  "title": "Bank schema",
+  "type": "object"
 }
-
