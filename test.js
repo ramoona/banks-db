@@ -22,5 +22,5 @@ test('ignores non-digits symbols in card number', t => {
 });
 
 test('ignores whitespaces', t => {
-  t.same(banksDB('4627 3045 6380 2833').name,'raiffeisen');
+  t.same(banksDB('4627 3045 6380 2833').name, 'raiffeisen');
 });
