@@ -1,0 +1,11 @@
+{
+  "name": "yandex",
+  "prefixes": [
+    518901
+  ],
+  "country": "ru",
+  "localTitle": "Яндекс.Деньги",
+  "engTitle": "Yandex Money",
+  "url": "https://money.yandex.ru/",
+  "color": "#000000"
+}

@@ -1,10 +1,12 @@
 const banks = [
   require('./banks/alfabank'),
+  require('./banks/citibank'),
+  require('./banks/mdm'),
   require('./banks/raiffeisen'),
   require('./banks/sberbank'),
   require('./banks/tinkoff'),
+  require('./banks/yandex'),
   require('./banks/vtb24'),
-  require('./banks/mdm'),
   require('./banks/absolutbank'),
   require('./banks/alfabank-by'),
   require('./banks/bbmb'),
