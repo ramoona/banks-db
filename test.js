@@ -1,5 +1,6 @@
 const test = require('ava');
 const banksDB = require('.');
+const cardType = require('./cardType');
 
 test('finds bank by first 6 symbols', t => {
   t.same(banksDB('5211784563802833').name, 'alfabank');
@@ -23,4 +24,12 @@ test('ignores non-digits symbols in card number', t => {
 
 test('ignores whitespaces', t => {
   t.same(banksDB('4627 3045 6380 2833').name, 'raiffeisen');
+});
+
+test('returns card type', t => {
+  t.same(cardType(4111111111111111), 'visa');
+});
+
+test('returns undefined on unknown card type', t => {
+  t.same(cardType(123456), undefined);
 });
