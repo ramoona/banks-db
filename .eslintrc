@@ -2,6 +2,8 @@
   "extends": "airbnb/base",
   "rules": {
     "no-console": 0,
-    "no-var": 0
+    "no-var": 0,
+    "comma-dangle": [2, "never"],
+    "guard-for-in": 0
   }
 }

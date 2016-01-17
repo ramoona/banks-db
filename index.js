@@ -1,3 +1,5 @@
+const type = require('./type');
+
 const banks = [
   require('./banks/alfabank'),
   require('./banks/citibank'),
@@ -7,7 +9,7 @@ const banks = [
   require('./banks/tinkoff'),
   require('./banks/yandex'),
   require('./banks/vtb24'),
-  require('./banks/kazkom'),
+  require('./banks/kazkom')
 ];
 
 const prefixes = {};
@@ -24,5 +26,17 @@ module.exports = function findBank(cardNumber) {
   const card = cardNumber.toString().replace(/[^\d]/g, '');
   const first5 = card.substr(0, 5);
   const first6 = card.substr(0, 6);
-  return prefixes[first6] || prefixes[first5] || false;
+  const bank = prefixes[first6] || prefixes[first5];
+  const result = {
+    type: type(card)
+  };
+
+  var el;
+  if (bank) {
+    for (el in bank) {
+      result[el] = bank[el];
+    }
+  }
+
+  return result;
 };

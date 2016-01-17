@@ -6,12 +6,20 @@ test('finds bank by first 6 symbols', t => {
   t.same(banksDB('5211784563802833').name, 'alfabank');
 });
 
+test('returen card type', t => {
+  t.same(banksDB('5211784563802833').type, 'mastercard');
+});
+
 test('finds bank by first 5 symbols', t => {
   t.same(banksDB('4622384563802833').name, 'vtb24');
 });
 
 test('returns false on unknown bank', t => {
-  t.same(banksDB('4111111111111111'), false);
+  t.same(banksDB('4111111111111111').name, undefined);
+});
+
+test('returns card type on unknown bank', t => {
+  t.same(banksDB('4111111111111111').type, 'visa');
 });
 
 test('finds bank by converted to string card number', t => {
