@@ -41,3 +41,7 @@ test('returns card type', t => {
 test('returns undefined on unknown card type', t => {
   t.same(type(123456), undefined);
 });
+
+test('returns all banks data', t => {
+  t.ok(Array.isArray(banksDB.data));
+});

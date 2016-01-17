@@ -40,3 +40,5 @@ module.exports = function findBank(cardNumber) {
 
   return result;
 };
+
+module.exports.data = banks;
