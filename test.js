@@ -15,7 +15,7 @@ test('finds bank by first 5 symbols', t => {
 });
 
 test('returns false on unknown bank', t => {
-  t.same(banksDB('4111111111111111').name, undefined);
+  t.same(typeof banksDB('4111111111111111').name, 'undefined');
 });
 
 test('returns card type on unknown bank', t => {
@@ -39,7 +39,7 @@ test('returns card type', t => {
 });
 
 test('returns undefined on unknown card type', t => {
-  t.same(type(123456), undefined);
+  t.same(typeof type(123456), 'undefined');
 });
 
 test('returns all banks data', t => {
