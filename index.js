@@ -9,7 +9,25 @@ const banks = [
   require('./banks/tinkoff'),
   require('./banks/yandex'),
   require('./banks/vtb24'),
-  require('./banks/kazkom')
+  require('./banks/kazkom'),
+  require('./banks/absolutbank'),
+  require('./banks/alfabank-by'),
+  require('./banks/belapb'),
+  require('./banks/belarusbank'),
+  require('./banks/belaruskynarodny'),
+  require('./banks/belgazprom'),
+  require('./banks/belinvestbank'),
+  require('./banks/belswissbank'),
+  require('./banks/belveb'),
+  require('./banks/bpssberbank'),
+  require('./banks/deltabank'),
+  require('./banks/homecredit'),
+  require('./banks/moskvaminsk'),
+  require('./banks/mtb'),
+  require('./banks/paritetbank'),
+  require('./banks/priorbank'),
+  require('./banks/trustbank'),
+  require('./banks/vtb')
 ];
 
 const prefixes = {};
