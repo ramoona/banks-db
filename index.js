@@ -9,7 +9,9 @@ const banks = [
   require('./banks/tinkoff'),
   require('./banks/yandex'),
   require('./banks/vtb24'),
-  require('./banks/kazkom')
+  require('./banks/kazkom'),
+  require('./banks/amexbelgiumcorporate'),
+  require('./banks/ingbelgium')
 ];
 
 const prefixes = {};
