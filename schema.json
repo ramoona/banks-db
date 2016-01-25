@@ -45,7 +45,7 @@
     },
     "defunct": {
       "type": "boolean",
-      "description": "Flag for banks with revoked license",
+      "description": "Flag for banks with revoked license"
     }
   }
 }
