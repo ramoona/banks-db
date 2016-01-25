@@ -42,6 +42,10 @@
       "type": "string",
       "description": "Bank brand color",
       "required": true
+    },
+    "defunct": {
+      "type": "boolean",
+      "description": "Flag for banks with revoked license",
     }
   }
 }
