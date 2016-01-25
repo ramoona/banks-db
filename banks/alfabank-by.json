@@ -1,0 +1,15 @@
+{
+  "name": "alfabank-by",
+  "prefixes": [
+    437350,
+    458520,
+    458521,
+    458522,
+    458523
+  ],
+  "country": "by",
+  "localTitle": "Альфабанк",
+  "engTitle": "Alfabank",
+  "url": "https://www.alfabank.by/",
+  "color": "#EE3124"
+}

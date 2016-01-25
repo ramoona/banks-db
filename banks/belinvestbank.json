@@ -1,0 +1,20 @@
+{
+  "name": "belinvestbank",
+  "prefixes": [
+    401346,
+    434484,
+    434485,
+    434486,
+    434487,
+    458291,
+    547691,
+    557749,
+    557884,
+    557885
+  ],
+  "country": "by",
+  "localTitle": "Белинвестбанк",
+  "engTitle": "Belinvestbank",
+  "url": "http://www.belinvestbank.by/",
+  "color": "#009881"
+}
