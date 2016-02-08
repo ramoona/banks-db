@@ -27,6 +27,7 @@ const banks = [
   require('./banks/mtb'),
   require('./banks/paritetbank'),
   require('./banks/priorbank'),
+  require('./banks/siab'),
   require('./banks/trustbank'),
   require('./banks/vtb'),
   require('./banks/amexbelgiumcorporate'),
