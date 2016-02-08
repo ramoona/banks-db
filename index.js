@@ -11,6 +11,7 @@ const banks = [
   require('./banks/vtb24'),
   require('./banks/kazkom'),
   require('./banks/absolutbank'),
+  require('./banks/rocketbank'),
   require('./banks/alfabank-by'),
   require('./banks/belapb'),
   require('./banks/belarusbank'),
