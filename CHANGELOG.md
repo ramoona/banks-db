@@ -1,3 +1,12 @@
+## 0.5.0
+* Added banks:
+    * Rocketbank
+    * SIAB
+
+* Updated:
+    * Kazkom Bank
+    * Raiffeisenbank
+
 ## 0.4.0
 * Added banks:
     * Absolutbank
