@@ -34,6 +34,10 @@ test('ignores whitespaces', t => {
   t.same(banksDB('4627 3045 6380 2833').name, 'raiffeisen');
 });
 
+test('accepts undefined', t => {
+  t.same(typeof banksDB(undefined).name, 'undefined');
+});
+
 test('returns card type', t => {
   t.same(type(4111111111111111), 'visa');
 });
