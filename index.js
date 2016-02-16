@@ -55,6 +55,7 @@ module.exports = function findBank(cardNumber) {
   if (bank) {
     for (var el in bank) {
       result[el] = bank[el];
+      result.code = bank.country + '-' + bank.name;
     }
   }
 

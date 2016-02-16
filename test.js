@@ -49,3 +49,7 @@ test('returns undefined on unknown card type', t => {
 test('returns all banks data', t => {
   t.ok(Array.isArray(banksDB.data));
 });
+
+test('returns country + bankname', t => {
+  t.same(banksDB('5211784563802833').code, 'ru-alfabank');
+});
