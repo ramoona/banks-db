@@ -1,3 +1,7 @@
+## 0.6.0
+* Added `result.code` for easier usage
+* Added fix for undefined card number
+
 ## 0.5.0
 * Added banks:
     * Rocketbank
