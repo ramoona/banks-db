@@ -12,6 +12,9 @@ It is useful on billing pages to use bank’s brand color when user starts to ty
 It is a community driven database, so it can potentially contain mistakes. It's not a problem for UX enhancement,
 but you must not use it in your billing logic.
 
+## Demo
+Try your card prefix in our [demo](http://ramoona.github.io/banks-db-demo/). Note that only first 6 digits of card number are required.
+
 ## Contributing
 
 In case your bankcard doesn't work, please check if your bank already in [Banks DB](https://github.com/Ramoona/banks-db/tree/master/banks):
