@@ -7,7 +7,7 @@ Returns bank name and brand color by bankcard prefix (BIN).
 
 It is useful on billing pages to use bank’s brand color when user starts to type card number.
 
-![banks-db usage example](https://cloud.githubusercontent.com/assets/7067080/13092683/6a763c3c-d512-11e5-990b-73f651db25bc.jpg)
+![banks-db usage example](https://cloud.githubusercontent.com/assets/7067080/13092969/c4e1d162-d513-11e5-8b6b-db509c765ffb.jpg)
 
 It is a community driven database, so it can potentially contain mistakes. It's not a problem for UX enhancement,
 but you must not use it in your billing logic.
