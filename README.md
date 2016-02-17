@@ -13,7 +13,7 @@ It is a community driven database, so it can potentially contain mistakes. It's 
 but you must not use it in your billing logic.
 
 ## Demo
-Try your card prefix in our [demo](http://ramoona.github.io/banks-db-demo/). Note that only first 6 digits of card number are required.
+Try your card prefix in our [demo](https://ramoona.github.io/banks-db-demo/). Note that only first 6 digits of card number are required.
 
 ## Contributing
 
