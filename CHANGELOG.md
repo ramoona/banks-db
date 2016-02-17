@@ -1,6 +1,6 @@
 ## 0.6.0
-* Added `result.code` for easier usage
-* Added fix for undefined card number
+* Added `result.code` for easier usage [from [#34](https://github.com/ramoona/banks-db/issues/34)]
+* Added fix for undefined card number [from [#33](https://github.com/ramoona/banks-db/issues/33)]
 
 ## 0.5.0
 * Added banks:
