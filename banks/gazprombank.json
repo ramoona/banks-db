@@ -1,0 +1,11 @@
+{
+  "name": "gazprombank",
+  "prefixes": [
+    677585
+  ],
+  "country": "ru",
+  "localTitle": "Газпромбанк",
+  "engTitle": "Gazprombank",
+  "url": "http://gazprombank.ru/",
+  "color": "#00448b"
+}
