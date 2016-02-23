@@ -1,38 +1,6 @@
 const type = require('./type');
 
-const banks = [
-  require('./banks/alfabank'),
-  require('./banks/citibank'),
-  require('./banks/mdm'),
-  require('./banks/raiffeisen'),
-  require('./banks/sberbank'),
-  require('./banks/tinkoff'),
-  require('./banks/yandex'),
-  require('./banks/vtb24'),
-  require('./banks/kazkom'),
-  require('./banks/absolutbank'),
-  require('./banks/rocketbank'),
-  require('./banks/alfabank-by'),
-  require('./banks/belapb'),
-  require('./banks/belarusbank'),
-  require('./banks/belaruskynarodny'),
-  require('./banks/belgazprom'),
-  require('./banks/belinvestbank'),
-  require('./banks/belswissbank'),
-  require('./banks/belveb'),
-  require('./banks/bpssberbank'),
-  require('./banks/deltabank'),
-  require('./banks/homecredit'),
-  require('./banks/moskvaminsk'),
-  require('./banks/mtb'),
-  require('./banks/paritetbank'),
-  require('./banks/priorbank'),
-  require('./banks/siab'),
-  require('./banks/trustbank'),
-  require('./banks/vtb'),
-  require('./banks/amexbelgiumcorporate'),
-  require('./banks/ingbelgium')
-];
+const banks = require('./banks/index');
 
 const prefixes = {};
 
