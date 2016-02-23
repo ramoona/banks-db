@@ -31,7 +31,8 @@ const banks = [
   require('./banks/trustbank'),
   require('./banks/vtb'),
   require('./banks/amexbelgiumcorporate'),
-  require('./banks/ingbelgium')
+  require('./banks/ingbelgium'),
+  require('./banks/gazprombank')
 ];
 
 const prefixes = {};
