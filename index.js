@@ -1,11 +1,16 @@
-const type = require('./type');
+'use strict';
 
-const banks = require('./banks/index');
+const type = require('./type');
+const data = require('./banks/index');
+let banks = [];
+data.forEach(item => {
+  banks = banks.concat(item);
+});
 
 const prefixes = {};
 
-for (var i = 0; i < banks.length; i++) {
-  for (var j = 0; j < banks[i].prefixes.length; j++) {
+for (let i = 0; i < banks.length; i++) {
+  for (let j = 0; j < banks[i].prefixes.length; j++) {
     prefixes[banks[i].prefixes[j]] = banks[i];
   }
 }
@@ -21,7 +26,7 @@ module.exports = function findBank(cardNumber) {
   };
 
   if (bank) {
-    for (var el in bank) {
+    for (const el in bank) {
       result[el] = bank[el];
       result.code = bank.country + '-' + bank.name;
     }
