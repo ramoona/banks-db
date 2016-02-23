@@ -12,3 +12,4 @@ countries.forEach(country => {
 });
 
 module.exports = banksData;
+module.exports.countries = countries;
