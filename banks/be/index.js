@@ -1,4 +1,4 @@
 module.exports = [
-require('./amexbelgiumcorporate'),
-require('./ingbelgium')
+  require('./amexbelgiumcorporate'),
+  require('./ingbelgium')
 ];

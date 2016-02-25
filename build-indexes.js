@@ -28,13 +28,13 @@ fs.readdir(path.join(__dirname, 'banks'), (err, files) => {
       const banksRequires = [];
 
       banks.forEach(bank => {
-        banksRequires.push('\nrequire(\'./' + bank.replace(/\.json$/, '') + '\')');
+        banksRequires.push('\n  require(\'./' + bank.replace(/\.json$/, '') + '\')');
       });
 
       generateIndex(country + '/index.js', banksRequires);
     });
 
-    requireIndexes.push('\nrequire(\'./' + country + '/index\')');
+    requireIndexes.push('\n  require(\'./' + country + '/index\')');
   });
 
   generateIndex('index.js', requireIndexes);

@@ -1,3 +1,3 @@
 module.exports = [
-require('./kazkom')
+  require('./kazkom')
 ];
