@@ -3,7 +3,7 @@ const path = require('path');
 const chalk = require('chalk');
 
 function generateIndex(filePath, requires) {
-  const content = 'module.exports = [' + requires + '\n];';
+  const content = 'module.exports = [' + requires + '\n];\n';
 
   fs.writeFile(path.join(__dirname, 'banks/' + filePath), content, err => {
     if (err) throw err;
