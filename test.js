@@ -53,3 +53,7 @@ test('returns all banks data', t => {
 test('returns country + bankname', t => {
   t.same(banksDB('5211784563802833').code, 'ru-alfabank');
 });
+
+test('returns code from banksDB.data', t => {
+  t.same(typeof banksDB.data[0].code, 'string');
+});
