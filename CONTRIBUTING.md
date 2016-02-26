@@ -11,8 +11,8 @@
       * `localTitle`: bank title in local language
       * `engTitle`: bank title in English
       * `url`: link to official bank website
-      * `color`: bank brand color from official logo or website
-    
+      * `color`: bank brand color from official logo or website (HEX, lowercase)
+
   * Optional  
     * `defunct` : set `true` for banks with revoked license
 

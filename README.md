@@ -120,11 +120,11 @@ for ( let bank of banksDB.data ) {
 
 * `type`: bankcard type. For example, `'visa'` or `'mastercard'`.
   Banks DB will return it even if bank is unknown.
-* `code`: unique bank code. For example, you can use it to generate
-  CSS selectors for every bank.
-* `color`: bank's brand color.
+* `code`: unique bank code, contain country and name. For example, you can use it to generate CSS selectors for every bank.
+* `color`: bank's brand color in HEX-format.
 * `localTitle`: bank's title in local language.
-* `engTitle`: internation bank's title.
+* `engTitle`: international bank's title.
+* `name`: short bank's name (not unique). For example, `'citibank'`.
 * `country`: bank's operation country. For example, you can use it
   to display `localTitle` for local banks and `engTitle` for others.
 * `url`: bank's website URL.
