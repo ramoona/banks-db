@@ -3,8 +3,13 @@
 const type = require('./type');
 const data = require('./banks/index');
 let banks = [];
+
 data.forEach(item => {
   banks = banks.concat(item);
+});
+
+banks.forEach(bank => {
+  bank.code = bank.country + '-' + bank.name;
 });
 
 const prefixes = {};
@@ -28,7 +33,6 @@ module.exports = function findBank(cardNumber) {
   if (bank) {
     for (const el in bank) {
       result[el] = bank[el];
-      result.code = bank.country + '-' + bank.name;
     }
   }
 
