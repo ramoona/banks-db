@@ -1,6 +1,6 @@
 {
   "name": "banks-db",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Bankcards BIN database",
   "author": "Linda Rian <lindarian12@gmail.com>",
   "repository": "Ramoona/banks-db",
@@ -22,7 +22,9 @@
     "jsonfile" : "2.2.3"
   },
   "scripts": {
-    "test": "ava && node lint.js && eslint *.js"
+    "test": "ava && node lint.js && eslint *.js",
+    "build": "node build-indexes.js",
+    "prepublish": "npm run build && npm test"
   },
   "license": "CC-BY-4.0"
 }

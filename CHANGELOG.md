@@ -1,3 +1,14 @@
+## 0.7.0
+* Banks separated by country
+* Removed manual requires of each bank JSON
+* Normalized color format (HEX, lowercase) and add linter to check and fix it in future
+* Added:
+    * Gazprombank (RU)
+* Updated:
+    * Alfabank (RU)
+    * Raiffeisen (RU)
+    * Sberbank (RU)
+
 ## 0.6.0
 * Added `result.code` for easier usage [from [#34](https://github.com/ramoona/banks-db/issues/34)]
 * Added fix for undefined card number [from [#33](https://github.com/ramoona/banks-db/issues/33)]
