@@ -1,3 +1,6 @@
+## 0.8.0
+* Fixes for browsers support
+
 ## 0.7.0
 * Banks separated by country
 * Removed manual requires of each bank JSON
