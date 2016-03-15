@@ -1,7 +1,7 @@
 # Adding a new bank
 
 1. Fork the [Banks DB](https://github.com/Ramoona/banks-db) repository and then clone your fork.
-2. Create new JSON file in `banks` folder and name it same as your bank title (lowercase).
+2. Create new JSON file in `banks/%country%` folder and call it same as your bank `name` (lowercase). In case your country folder isn't exist yet, just add it. Make sure that your bank `country` matches with name of folder where you put it.
 3. Fill your JSON with this guide:
 
   * Required:
@@ -19,8 +19,9 @@
   Here's an example:
 
   ```js
+  // banks/my-country/my-bank.json
     {
-      "name": "mybank",
+      "name": "my-bank",
       "prefixes": [
         12345,
         123456,
@@ -32,5 +33,5 @@
       "color": "#000"
     }
     ```
-4. Make sure `npm test` is still green
+4. Make sure that `npm test` is passing.
 5. Submit a pull request.
