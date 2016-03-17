@@ -3,6 +3,7 @@ module.exports = [
   require('./by/index'),
   require('./ca/index'),
   require('./cz/index'),
+  require('./dk/index'),
   require('./fi/index'),
   require('./gb/index'),
   require('./kz/index'),
