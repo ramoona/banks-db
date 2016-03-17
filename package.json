@@ -15,11 +15,11 @@
   ],
   "devDependencies": {
     "JSV": "^4.0.2",
+    "ava": "^0.13.0",
     "chalk": "^1.1.1",
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^3.1.0",
-    "ava": "^0.9.1",
-    "jsonfile" : "2.2.3"
+    "jsonfile": "2.2.3"
   },
   "scripts": {
     "test": "ava && node lint.js && eslint *.js",

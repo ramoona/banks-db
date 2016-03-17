@@ -1,5 +1,5 @@
 const test = require('ava');
-const banksDB = require('.');
+const banksDB = require('./');
 const type = require('./type');
 
 test('finds bank by first 6 symbols', t => {
