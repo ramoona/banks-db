@@ -3,6 +3,7 @@ module.exports = [
   require('./citibank'),
   require('./gazprombank'),
   require('./mdm'),
+  require('./qiwi'),
   require('./raiffeisen'),
   require('./rocketbank'),
   require('./sberbank'),
