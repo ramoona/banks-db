@@ -5,6 +5,7 @@ module.exports = [
   require('./cz/index'),
   require('./dk/index'),
   require('./fi/index'),
+  require('./fr/index'),
   require('./gb/index'),
   require('./kz/index'),
   require('./pt/index'),
