@@ -1,5 +1,5 @@
 module.exports = [
-  require('./macrobank'),
-  require('./galiciabank'),
+  require('./macro'),
+  require('./galicia'),
   
 ];
