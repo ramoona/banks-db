@@ -1,0 +1,23 @@
+{
+  "name": "tdbank",
+  "prefixes": [
+	401777,
+	402944,
+	408537,
+	408540,
+	415874,
+	417207,
+	417208,
+	429482,
+	432855,
+	438766,
+	449163,
+	465652,
+	479213
+  ],
+  "country": "us",
+  "localTitle": "TD Bank",
+  "engTitle": "TD Bank",
+  "url": "https://www.td.com/",
+  "color": "#35b233"
+}

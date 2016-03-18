@@ -1,5 +1,5 @@
 const test = require('ava');
-const banksDB = require('.');
+const banksDB = require('./');
 const type = require('./type');
 
 test('finds bank by first 6 symbols', t => {
@@ -56,4 +56,8 @@ test('returns country + bankname', t => {
 
 test('returns code from banksDB.data', t => {
   t.same(typeof banksDB.data[0].code, 'string');
+});
+
+test('returns country + bankname', t => {
+  t.same(banksDB('4018674563802833').code, 'us-chase');
 });
