@@ -11,7 +11,8 @@ module.exports = function detectCardType(cardNumber) {
     amex: /^3[47][0-9]{13}$/,
     diners: /^3(?:0[0-5]|[68][0-9])[0-9]{11}$/,
     discover: /^6(?:011|5[0-9]{2})[0-9]{12}$/,
-    jcb: /^(?:2131|1800|35\d{3})\d{11}$/
+    jcb: /^(?:2131|1800|35\d{3})\d{11}$/,
+    forbrugsforeningen: /^(600)\d+$/
   };
   var type;
 
