@@ -1,3 +1,35 @@
+## 0.9.0
+* Added:
+    * Scotiabank (CA)
+    * Nordea (FI)
+    * Airbank (CZ)
+    * Barclays Plc. (GB)
+    * Portuguese Investment Bank (PT)
+    * Millennium BCP (PT)
+    * QIWI (RU)
+    * Nykredit (DK)
+    * Macro Bank (AR)
+    * Galicia Bank (AR)
+    * Boursorama (FR)
+    * Credit Mutuel (FR)
+    * ING Direct (FR)
+    * Bank of America (US)
+    * TD Bank (US)
+    * Tangerine (CA)
+    * TD Canada Trust (CA)
+    * Caisse d'Épargne (FR)
+    * LCL (FR)
+    * NatWest (GB)
+    * Google Wallet (US)
+    * Chase (US)
+    * Wells Fargo (US)
+    * Citi bank (US)
+    * Capital One Bank (US)
+    * American Express (US)
+    * HSBC (US)
+    * Barclays (US)
+    * Another one card type: forbrugsforeningen
+
 ## 0.8.0
 * Fixes for browsers support
 

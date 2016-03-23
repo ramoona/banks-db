@@ -1,4 +1,5 @@
 module.exports = [
+  require('./ar/index'),
   require('./be/index'),
   require('./by/index'),
   require('./ca/index'),

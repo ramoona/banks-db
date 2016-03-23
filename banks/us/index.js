@@ -1,11 +1,12 @@
 module.exports = [
-  require('./chase'),
-  require('./bankofamerica'),
-  require('./tdbank'),
-  require('./hsbc'),
-  require('./citibank'),
-  require('./capitalonebank'),
   require('./americanexpress'),
+  require('./bankofamerica'),
   require('./barclays'),
+  require('./capitalonebank'),
+  require('./chase'),
+  require('./citibank'),
+  require('./googlewallet'),
+  require('./hsbc'),
+  require('./tdbank'),
   require('./wellsfargo')
 ];

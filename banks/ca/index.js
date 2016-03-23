@@ -1,3 +1,5 @@
 module.exports = [
-  require('./scotiabank')
+  require('./scotiabank'),
+  require('./tangerine'),
+  require('./tdcanadatrust')
 ];
