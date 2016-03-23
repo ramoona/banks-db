@@ -135,3 +135,6 @@ In case your bankcard doesn't work, please check if your bank already in [Banks 
 
 - If your bank is already included, you can [open an issue](https://github.com/Ramoona/banks-db/issues) with your prefix (NOT full number of your card, just first 5 or 6 symbols) or send a pull request.
 - Otherwise you can add a new bank (see [contributing guide](https://github.com/Ramoona/banks-db/blob/master/CONTRIBUTING.md)).
+ 
+## Changelog
+See [CHANGELOG.md](https://github.com/ramoona/banks-db/blob/master/CHANGELOG.md) or [release notes](https://github.com/ramoona/banks-db/releases) (with commits history).
