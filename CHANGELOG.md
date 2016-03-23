@@ -1,101 +1,157 @@
-## 0.9.0
-* Added:
-    * Scotiabank (CA)
-    * Nordea (FI)
-    * Airbank (CZ)
-    * Barclays Plc. (GB)
-    * Portuguese Investment Bank (PT)
-    * Millennium BCP (PT)
-    * QIWI (RU)
-    * Nykredit (DK)
-    * Macro Bank (AR)
-    * Galicia Bank (AR)
-    * Boursorama (FR)
-    * Credit Mutuel (FR)
-    * ING Direct (FR)
-    * Bank of America (US)
-    * TD Bank (US)
-    * Tangerine (CA)
-    * TD Canada Trust (CA)
-    * Caisse d'Épargne (FR)
-    * LCL (FR)
-    * NatWest (GB)
-    * Google Wallet (US)
-    * Chase (US)
-    * Wells Fargo (US)
-    * Citi bank (US)
-    * Capital One Bank (US)
-    * American Express (US)
-    * HSBC (US)
-    * Barclays (US)
-    * Another one card type: forbrugsforeningen
+## v0.9.0
+#### Added
 
-## 0.8.0
-* Fixes for browsers support
+* One more card type (forbrugsforeningen)
 
-## 0.7.0
+* Banks:
+
+    | Bank        | Country           |
+    | ------------- |:-------------:|
+    | Airbank | CZ |
+    | American Express | US |
+    | Bank of America | US |
+    | Barclays | US |
+    | Barclays Plc. | GB |
+    | Boursorama | FR |
+    | Caisse d'Épargne | FR |
+    | Capital One Bank | US |
+    | Chase | US |
+    | Citi bank | US |
+    | Credit Mutuel | FR |
+    | Galicia Bank | AR |
+    | Google Wallet | US |
+    | HSBC | US |
+    | ING Direct | FR |
+    | LCL | FR |
+    | NatWest | GB |
+    | Nordea | FI |
+    | Nykredit | DK |
+    | Macro Bank | AR |
+    | Millennium BCP | PT |
+    | Portuguese Investment Bank | PT |
+    | QIWI | RU |
+    | Scotiabank | CA |
+    | Tangerine | CA |
+    | TD Bank  | US |
+    | TD Canada Trust | CA |
+    | Wells Fargo | US |
+
+## v0.8.0
+#### Fixed
+
+Important changes for browsers support 🙌
+
+## v0.7.0
+#### Changed
 * Banks separated by country
 * Removed manual requires of each bank JSON
-* Normalized color format (HEX, lowercase) and add linter to check and fix it in future
-* Added:
-    * Gazprombank (RU)
-* Updated:
-    * Alfabank (RU)
-    * Raiffeisen (RU)
-    * Sberbank (RU)
 
-## 0.6.0
-* Added `result.code` for easier usage [from [#34](https://github.com/ramoona/banks-db/issues/34)]
-* Added fix for undefined card number [from [#33](https://github.com/ramoona/banks-db/issues/33)]
+#### Added
+* Linter to check and fix color format (must be HEX, lowercase)
 
-## 0.5.0
-* Added banks:
-    * Rocketbank
-    * SIAB
+* Banks:
 
-* Updated:
-    * Kazkom Bank
-    * Raiffeisenbank
+    | Bank        | Country           |
+    | ------------- |:-------------:|
+    | Gazprombank | RU |
 
-## 0.4.0
-* Added banks:
-    * Absolutbank
-    * Alfabank (BY)
-    * American Express (BE)
-    * Belagroprombank
-    * Belarusbank
-    * Beloruskii Narodny Bank
-    * Belgazprombank
-    * Belinvestbank
-    * BelSwiss
-    * BPS-Sberbank
-    * BelVEB Bank
-    * Delta Bank
-    * Home Credit Bank (BY)
-    * ING Belgium
-    * Bank Moskva-Minsk
-    * MTBank
-    * Paritetbank
-    * Priorbank
-    * Trustbank  (BY)
-    * VTB (BY)
+* Prefixes:
 
-* Updated:
-    * Sberbank
+    | Bank        | Country           |
+    | ------------- |:-------------:|
+    | Alfabank | RU |
+    | Raiffeisen | RU |
+    | Sberbank | RU |
 
-## 0.3.0
-* Added banks:
-    * Citibank
-    * Kazkom Bank
-    * Yandex Money
-* Updated:
-    * Alfabank
-    * VTB24
-* Card type included in result
-* All banks data included in result
+## v0.6.0
+#### Added
+`result.code` (contain bank name and country) for easier usage #34
 
-## 0.2.0
-* Added MDM Bank
+#### Fixed 
+Undefined card number #33 
 
-## 0.1.0
-* Initial release.
+## v0.5.0
+#### Added
+
+* Banks:
+
+    | Bank        | Country           |
+    | ------------- |:-------------:|
+    | Rocketbank | RU |
+    | SIAB | RU |
+
+* Prefixes:
+
+    | Bank        | Country           |
+    | ------------- |:-------------:|
+    | Kazkom Bank | KZ |
+    | Raiffeisenbank| RU |
+
+
+## v0.4.0
+#### Added
+
+* Banks:
+
+    | Bank        | Country           | 
+    | ------------- |:-------------:|
+    | Absolutbank | BY |
+    | Alfabank |
+    | Belagroprombank |
+    | Belarusbank |
+    | Beloruskii Narodny Bank |
+    | Belgazprombank |
+    | Belinvestbank |
+    | BelSwiss | 
+    | BPS-Sberbank |
+    | BelVEB Bank |
+    | Delta Bank |
+    | Home Credit Bank |
+    | Bank Moskva-Minsk |
+    | MTBank |
+    | Paritetbank |
+    | Priorbank |
+    | Trustbank |
+    | VTB |
+    | Belgium |
+    | ING Belgium | BE |
+    | American Express | BE |
+    
+* Prefixes:
+
+    | Bank        | Country           |
+    | ------------- |:-------------:|
+    | Sberbank | RU |
+  
+
+## v0.3.0
+#### Added
+
+* Card type included in result 
+* All banks data included in result 
+
+* Banks:
+
+    | Bank        | Country           |
+    | ------------- |:-------------:|
+    | Citibank | RU |
+    | Kazkom Bank | KZ |
+    | Yandex Money | RU |
+
+* Prefixes:
+
+    | Bank        | Country           |
+    | ------------- |:-------------:|
+    | Alfabank | RU |
+    | VTB24 | RU |
+
+
+## v0.2.0
+#### Added
+
+| Bank        | Country           |
+| ------------- |:-------------:|
+| MDM Bank | RU |
+
+## v0.1.0
+Initial release 🙋
