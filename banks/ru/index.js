@@ -9,6 +9,8 @@ module.exports = [
   require('./sberbank'),
   require('./siab'),
   require('./tinkoff'),
+  require('./unicreditbank'),
+  require('./vozrozhdenie'),
   require('./vtb24'),
   require('./yandex')
 ];
