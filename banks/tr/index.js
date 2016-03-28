@@ -1,0 +1,19 @@
+module.exports = [
+  require('./akbank'),
+  require('./albaraka'),
+  require('./bankasya'),
+  require('./denizbank'),
+  require('./finansbank'),
+  require('./garanti'),
+  require('./halkbank'),
+  require('./hsbc'),
+  require('./ingbank'),
+  require('./isbank'),
+  require('./kuveytturk'),
+  require('./sekerbank'),
+  require('./teb'),
+  require('./turkiyefinans'),
+  require('./vakifbank'),
+  require('./yapikredi'),
+  require('./ziraatbankasi')
+];
