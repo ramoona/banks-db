@@ -1,0 +1,22 @@
+{
+  "name": "bankasya",
+  "prefixes": [
+    402275,
+    402276,
+    402280,
+    416987,
+    441033,
+    515849,
+    524384,
+    527585,
+    529462,
+    531334,
+    547799,
+    552529
+  ],
+  "country": "tr",
+  "localTitle": "Bank Asya",
+  "engTitle": "Bank Asya",
+  "url": "https://bankasya.com.tr/",
+  "color": "#4285f4"
+}

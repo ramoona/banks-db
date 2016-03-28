@@ -1,0 +1,25 @@
+{
+  "name": "isbank",
+  "prefixes": [
+    418342,
+    418343,
+    418344,
+    418345,
+    450803,
+    454318,
+    454358,
+    454359,
+    454360,
+    510152,
+    540667,
+    540668,
+    543771,
+    552096,
+    553058
+  ],
+  "country": "tr",
+  "localTitle": "Türkiye İş Bankası",
+  "engTitle": "Türkiye İş Bankası",
+  "url": "http://isbank.com.tr/",
+  "color": "#4285f4"
+}
