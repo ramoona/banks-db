@@ -1,3 +1,51 @@
+## v0.10.0
+#### Added
+
+* Banks:
+
+    | Bank        | Country           |
+    | ------------- |:-------------:|
+    | UniCredit Bank | RU |
+    | Vozrozhdenie | RU |
+    | Akbank | TR |
+    | al Baraka | TR |
+    | Bank Asya | TR |
+    | Denizbank | TR |
+    | Finansbank | TR |
+    | Garanti Bankasi | TR |
+    | Halk Bankası | TR |
+    | HSBC | TR |
+    | ING Bank | TR |
+    | Türkiye İş Bankası | TR |
+    | Kuveyt Türk | TR |
+    | Şeker Bank | TR |
+    | Türk Ekonomi Bankası | TR |
+    | Türkiye Finans | TR |
+    | Vakıf Bank | TR |
+    | Yapı ve Kredi Bankası | TR |
+    | Ziraat Bankası | TR |
+    | Suncorp | AU |
+    | Agricultural Bank of China | CN |
+    | Bank of China | CN |
+    | Bank of Communications | CN |
+    | China Construction Bank | CN |
+    | China Everbright Bank | CN |
+    | China Guangfa Bank | CN |
+    | Industrial Bank Co. Ltd. | CN |
+    | China Citic Bank | CN |
+    | China Merchants Bank | CN |
+    | China Minsheng Bank | CN |
+    | Huaxia Bank | CN |
+    | Industrial and Commercial Bank of China | CN |
+    | Ping An Bank | CN |
+    | Shanghai Pudong Development Bank | CN |
+
+* Prefixes:
+
+    | Bank        | Country           |
+    | ------------- |:-------------:|
+    | Sberbank | RU |
+
 ## v0.9.0
 #### Added
 
@@ -67,8 +115,8 @@ Important changes for browsers support 🙌
 #### Added
 `result.code` (contain bank name and country) for easier usage #34
 
-#### Fixed 
-Undefined card number #33 
+#### Fixed
+Undefined card number #33
 
 ## v0.5.0
 #### Added
@@ -93,7 +141,7 @@ Undefined card number #33
 
 * Banks:
 
-    | Bank        | Country           | 
+    | Bank        | Country           |
     | ------------- |:-------------:|
     | Absolutbank | BY |
     | Alfabank |
@@ -102,7 +150,7 @@ Undefined card number #33
     | Beloruskii Narodny Bank |
     | Belgazprombank |
     | Belinvestbank |
-    | BelSwiss | 
+    | BelSwiss |
     | BPS-Sberbank |
     | BelVEB Bank |
     | Delta Bank |
@@ -116,19 +164,19 @@ Undefined card number #33
     | Belgium |
     | ING Belgium | BE |
     | American Express | BE |
-    
+
 * Prefixes:
 
     | Bank        | Country           |
     | ------------- |:-------------:|
     | Sberbank | RU |
-  
+
 
 ## v0.3.0
 #### Added
 
-* Card type included in result 
-* All banks data included in result 
+* Card type included in result
+* All banks data included in result
 
 * Banks:
 
