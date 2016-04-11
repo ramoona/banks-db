@@ -1,0 +1,14 @@
+{
+  "name": "ccb",
+  "prefixes": [
+    436742,
+    436745,
+    621700,
+    622280
+  ],
+  "country": "cn",
+  "localTitle": "中国建设银行",
+  "engTitle": "China Construction Bank",
+  "url": "http://www.ccb.com/",
+  "color": "#0c69b0"
+}

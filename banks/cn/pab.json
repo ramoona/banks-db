@@ -1,0 +1,21 @@
+{
+  "name": "pab",
+  "prefixes": [
+    435744,
+    435745,
+    622525,
+    622526,
+    622538,
+    998801,
+    998802,
+    622155,
+    622156,
+    528020,
+    526855
+  ],
+  "country": "cn",
+  "localTitle": "平安银行",
+  "engTitle": "Ping An Bank",
+  "url": "http://bank.pingan.com/",
+  "color": "#e95303"
+}

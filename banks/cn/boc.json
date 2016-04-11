@@ -1,0 +1,14 @@
+{
+  "name": "boc",
+  "prefixes": [
+    409666,
+    438088,
+    622760,
+    622752
+  ],
+  "country": "cn",
+  "localTitle": "中国银行",
+  "engTitle": "Bank of China",
+  "url": "http://www.boc.cn/",
+  "color": "#a71e32"
+}
