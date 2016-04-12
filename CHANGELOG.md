@@ -1,4 +1,4 @@
-## v0.10.0
+## v0.10.1
 Small fixes to improve readability of JSONs:
   * sorting prefixes
   * `prefixes` attribute is now last in JSON

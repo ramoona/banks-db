@@ -23,15 +23,15 @@
   // banks/my-country/my-bank.json
     {
       "name": "my-bank",
-      "prefixes": [
-        12345,
-        123456,
-      ],
       "country": "ru",
       "localTitle": "Мой банк",
       "engTitle": "My Bank",
       "url": "https://my-bank.com/",
-      "color": "#000"
+      "color": "#000",
+      "prefixes": [
+        12345,
+        123456,
+      ]
     }
     ```
 6. Make sure that `npm test` is still passing.
