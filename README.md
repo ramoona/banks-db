@@ -7,7 +7,7 @@ Returns bank name and brand color by bankcard prefix (BIN).
 
 It is useful on billing pages to use bank’s brand color when user starts to type card number.
 
-<img alt='banks-db usage example' src="https://raw.githubusercontent.com/ramoona/banks-db-demo/master/demo-example.jpg" width="500px" />
+<img alt='banks-db usage example' src="https://raw.githubusercontent.com/ramoona/banks-db-demo/gh-pages/demo-example.jpg" width="500px" />
 
 It is a community driven database, so it can potentially contain mistakes. It's not a problem for UX enhancement,
 but you must not use it in your billing logic.
@@ -135,6 +135,6 @@ In case your bankcard doesn't work, please check if your bank already in [Banks 
 
 - If your bank is already included, you can [open an issue](https://github.com/Ramoona/banks-db/issues) with your prefix (NOT full number of your card, just first 5 or 6 symbols) or send a pull request.
 - Otherwise you can add a new bank (see [contributing guide](https://github.com/Ramoona/banks-db/blob/master/CONTRIBUTING.md)).
- 
+
 ## Changelog
 See [CHANGELOG.md](https://github.com/ramoona/banks-db/blob/master/CHANGELOG.md) or [release notes](https://github.com/ramoona/banks-db/releases) (with commits history).
