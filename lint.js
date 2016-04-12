@@ -43,20 +43,22 @@ fs.readdir(path.join(__dirname, 'banks'), (err, files) => {
           } else if (bank.name !== name) {
             showError(bankPath, ':\nJSON filename doesn\'t match with bank name');
             process.exit(1);
+          } else if (!/^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/.test(bank.color)) {
+            showError(bankPath, ': \ninvalid color format (use HEX)');
+            process.exit(1);
           } else {
-            console.log(chalk.green('OK ') + chalk.white('banks/' + country + '/' + name));
-          }
-
-          if (/^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/.test(bank.color)) {
+            bank.prefixes.sort();
             if (/[A-F]\w*/.test(bank.color)) {
               bank.color = bank.color.toLowerCase();
-              jsonfile.writeFile(path.join(__dirname, bankPath), bank, { spaces: 2 }, err3 => {
-                if (err3) throw err3;
-              });
             }
-          } else {
-            showError(bankPath, ': invalid color format (use HEX)');
-            process.exit(1);
+
+            jsonfile.writeFile(path.join(__dirname, bankPath), bank, { spaces: 2 }, err3 => {
+              if (err3) {
+                throw err3;
+              } else {
+                console.log(chalk.green('OK ') + chalk.white('banks/' + country + '/' + name));
+              }
+            });
           }
         });
       });

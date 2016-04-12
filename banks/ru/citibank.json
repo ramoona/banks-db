@@ -1,9 +1,9 @@
 {
   "name": "citibank",
   "prefixes": [
-    527594,
     427760,
-    427761
+    427761,
+    527594
   ],
   "country": "ru",
   "localTitle": "Ситибанк",

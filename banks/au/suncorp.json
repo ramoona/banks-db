@@ -1,12 +1,12 @@
 {
-	"name":	"suncorp",
-	"prefixes": [
-		439239,
-		456432
-	],
-	"country": "au",
-	"localTitle": "Suncorp",
-	"engTitle": "Suncorp",
-	"url": "http://www.suncorp.com.au",
-	"color": "#006f66"
+  "name": "suncorp",
+  "prefixes": [
+    439239,
+    456432
+  ],
+  "country": "au",
+  "localTitle": "Suncorp",
+  "engTitle": "Suncorp",
+  "url": "http://www.suncorp.com.au",
+  "color": "#006f66"
 }
