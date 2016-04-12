@@ -1,11 +1,11 @@
 {
-"name": "caisseepargne",
-"prefixes": [
-497874
-],
-"country": "fr",
-"localTitle": "Caisse d'Épargne",
-"engTitle": "Caisse d'Épargne",
-"url": "https://www.caisse-epargne.fr/",
-"color": "#e2001a"
+  "name": "caisseepargne",
+  "prefixes": [
+    497874
+  ],
+  "country": "fr",
+  "localTitle": "Caisse d'Épargne",
+  "engTitle": "Caisse d'Épargne",
+  "url": "https://www.caisse-epargne.fr/",
+  "color": "#e2001a"
 }
