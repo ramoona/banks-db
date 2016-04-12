@@ -1,4 +1,9 @@
 ## v0.10.0
+Small fixes to improve readability of JSONs:
+  * sorting prefixes
+  * `prefixes` attribute is now last in JSON
+
+## v0.10.0
 #### Added
 
 * Banks:
