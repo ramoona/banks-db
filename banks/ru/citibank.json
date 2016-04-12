@@ -1,13 +1,13 @@
 {
   "name": "citibank",
-  "prefixes": [
-    427760,
-    427761,
-    527594
-  ],
   "country": "ru",
   "localTitle": "Ситибанк",
   "engTitle": "Citibank",
   "url": "https://www.citibank.ru/",
-  "color": "#0088cf"
+  "color": "#0088cf",
+  "prefixes": [
+    427760,
+    427761,
+    527594
+  ]
 }

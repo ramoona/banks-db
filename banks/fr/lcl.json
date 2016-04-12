@@ -1,11 +1,11 @@
 {
   "name": "lcl",
-  "prefixes": [
-    497203
-  ],
   "country": "fr",
   "localTitle": "LCL",
   "engTitle": "LCL",
   "url": "https://particuliers.secure.lcl.fr/",
-  "color": "#263f92"
+  "color": "#263f92",
+  "prefixes": [
+    497203
+  ]
 }

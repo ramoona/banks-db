@@ -8,16 +8,6 @@
       "description": "Unique project code for the bank",
       "required": true
     },
-    "prefixes": {
-      "type": "array",
-      "items": {
-        "type": "number",
-        "minimum": 10000
-      },
-      "minItems": 1,
-      "uniqueItems": true,
-      "required": true
-    },
     "country": {
       "type": "string",
       "description": "Two letters code of bank country (ISO 3166-1 alpha-2)",
@@ -46,7 +36,16 @@
     "defunct": {
       "type": "boolean",
       "description": "Flag for banks with revoked license"
+    },
+    "prefixes": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "minimum": 10000
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "required": true
     }
   }
 }
-

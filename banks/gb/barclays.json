@@ -1,5 +1,10 @@
 {
   "name": "barclays",
+  "country": "gb",
+  "localTitle": "Barclays Bank plc",
+  "engTitle": "Barclays Bank plc",
+  "url": "https://www.barclays.co.uk/",
+  "color": "#00adef",
   "prefixes": [
     400115,
     408367,
@@ -33,10 +38,5 @@
     491750,
     492902,
     492912
-  ],
-  "country": "gb",
-  "localTitle": "Barclays Bank plc",
-  "engTitle": "Barclays Bank plc",
-  "url": "https://www.barclays.co.uk/",
-  "color": "#00adef"
+  ]
 }

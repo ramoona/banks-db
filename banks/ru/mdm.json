@@ -1,11 +1,11 @@
 {
   "name": "mdm",
-  "prefixes": [
-    554372
-  ],
   "country": "ru",
   "localTitle": "МДМ Банк",
   "engTitle": "MDM Bank",
   "url": "https://www.mdm.ru/",
-  "color": "#820729"
+  "color": "#820729",
+  "prefixes": [
+    554372
+  ]
 }

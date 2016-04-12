@@ -1,5 +1,10 @@
 {
   "name": "priorbank",
+  "country": "by",
+  "localTitle": "Приорбанк",
+  "engTitle": "Priorbank",
+  "url": "http://www.priorbank.by",
+  "color": "#ffff00",
   "prefixes": [
     413059,
     416064,
@@ -14,10 +19,5 @@
     542645,
     548952,
     558349
-  ],
-  "country": "by",
-  "localTitle": "Приорбанк",
-  "engTitle": "Priorbank",
-  "url": "http://www.priorbank.by",
-  "color": "#ffff00"
+  ]
 }

@@ -1,5 +1,10 @@
 {
   "name": "bankofamerica",
+  "country": "us",
+  "localTitle": "Bank of America",
+  "engTitle": "Bank of America",
+  "url": "https://www.bankofamerica.com/",
+  "color": "#d4001a",
   "prefixes": [
     374314,
     374315,
@@ -1445,10 +1450,5 @@
     558854,
     558855,
     558856
-  ],
-  "country": "us",
-  "localTitle": "Bank of America",
-  "engTitle": "Bank of America",
-  "url": "https://www.bankofamerica.com/",
-  "color": "#d4001a"
+  ]
 }

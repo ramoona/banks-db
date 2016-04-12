@@ -1,5 +1,10 @@
 {
   "name": "finansbank",
+  "country": "tr",
+  "localTitle": "Finansbank",
+  "engTitle": "Finansbank",
+  "url": "https://finansbank.com.tr/",
+  "color": "#4285f4",
   "prefixes": [
     402277,
     402278,
@@ -30,10 +35,5 @@
     545847,
     547567,
     547800
-  ],
-  "country": "tr",
-  "localTitle": "Finansbank",
-  "engTitle": "Finansbank",
-  "url": "https://finansbank.com.tr/",
-  "color": "#4285f4"
+  ]
 }

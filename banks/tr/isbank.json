@@ -1,5 +1,10 @@
 {
   "name": "isbank",
+  "country": "tr",
+  "localTitle": "Türkiye İş Bankası",
+  "engTitle": "Türkiye İş Bankası",
+  "url": "http://isbank.com.tr/",
+  "color": "#4285f4",
   "prefixes": [
     418342,
     418343,
@@ -16,10 +21,5 @@
     543771,
     552096,
     553058
-  ],
-  "country": "tr",
-  "localTitle": "Türkiye İş Bankası",
-  "engTitle": "Türkiye İş Bankası",
-  "url": "http://isbank.com.tr/",
-  "color": "#4285f4"
+  ]
 }

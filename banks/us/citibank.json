@@ -1,5 +1,10 @@
 {
   "name": "citibank",
+  "country": "us",
+  "localTitle": "Citibank",
+  "engTitle": "Citibank",
+  "url": "https://online.citi.com/US/",
+  "color": "#0088cf",
   "prefixes": [
     402835,
     402836,
@@ -500,10 +505,5 @@
     558863,
     558879,
     558880
-  ],
-  "country": "us",
-  "localTitle": "Citibank",
-  "engTitle": "Citibank",
-  "url": "https://online.citi.com/US/",
-  "color": "#0088cf"
+  ]
 }

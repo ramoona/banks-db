@@ -1,5 +1,10 @@
 {
   "name": "wellsfargo",
+  "country": "us",
+  "localTitle": "Wells Fargo",
+  "engTitle": "Wells Fargo",
+  "url": "https://www.wellsfargo.com/",
+  "color": "#a00000",
   "prefixes": [
     401158,
     401645,
@@ -1410,10 +1415,5 @@
     558669,
     558674,
     558835
-  ],
-  "country": "us",
-  "localTitle": "Wells Fargo",
-  "engTitle": "Wells Fargo",
-  "url": "https://www.wellsfargo.com/",
-  "color": "#a00000"
+  ]
 }

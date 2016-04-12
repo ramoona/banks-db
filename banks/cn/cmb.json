@@ -1,5 +1,10 @@
 {
   "name": "cmb",
+  "country": "cn",
+  "localTitle": "招商银行",
+  "engTitle": "China Merchants Bank",
+  "url": "http://www.cmbchina.com",
+  "color": "#b0110c",
   "prefixes": [
     356885,
     356886,
@@ -39,10 +44,5 @@
     628262,
     628362,
     645621
-  ],
-  "country": "cn",
-  "localTitle": "招商银行",
-  "engTitle": "China Merchants Bank",
-  "url": "http://www.cmbchina.com",
-  "color": "#b0110c"
+  ]
 }

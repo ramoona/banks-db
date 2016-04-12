@@ -1,5 +1,10 @@
 {
   "name": "belgazprom",
+  "country": "by",
+  "localTitle": "Белгазпромбанк",
+  "engTitle": "Belgazprombank",
+  "url": "http://www.belgazprombank.by",
+  "color": "#0079c2",
   "prefixes": [
     428620,
     428621,
@@ -9,10 +14,5 @@
     518597,
     518707,
     529922
-  ],
-  "country": "by",
-  "localTitle": "Белгазпромбанк",
-  "engTitle": "Belgazprombank",
-  "url": "http://www.belgazprombank.by",
-  "color": "#0079c2"
+  ]
 }

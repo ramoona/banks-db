@@ -1,14 +1,14 @@
 {
   "name": "deltabank",
-  "prefixes": [
-    467939,
-    467940,
-    467941
-  ],
   "country": "by",
   "localTitle": "Дельтабанк",
   "engTitle": "Delta Bank",
   "url": "http://deltabank.by/",
   "color": "#d81e05",
-  "defunct": true
+  "defunct": true,
+  "prefixes": [
+    467939,
+    467940,
+    467941
+  ]
 }

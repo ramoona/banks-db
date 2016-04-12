@@ -1,5 +1,10 @@
 {
   "name": "barclays",
+  "country": "us",
+  "localTitle": "Barclays",
+  "engTitle": "Barclays",
+  "url": "https://www.banking.barclaysus.com/index.html",
+  "color": "#28ace2",
   "prefixes": [
     414706,
     432745,
@@ -34,10 +39,5 @@
     547783,
     552321,
     552322
-  ],
-  "country": "us",
-  "localTitle": "Barclays",
-  "engTitle": "Barclays",
-  "url": "https://www.banking.barclaysus.com/index.html",
-  "color": "#28ace2"
+  ]
 }

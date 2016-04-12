@@ -1,5 +1,10 @@
 {
   "name": "tdbank",
+  "country": "us",
+  "localTitle": "TD Bank",
+  "engTitle": "TD Bank",
+  "url": "https://www.td.com/",
+  "color": "#35b233",
   "prefixes": [
     401777,
     402944,
@@ -14,10 +19,5 @@
     449163,
     465652,
     479213
-  ],
-  "country": "us",
-  "localTitle": "TD Bank",
-  "engTitle": "TD Bank",
-  "url": "https://www.td.com/",
-  "color": "#35b233"
+  ]
 }

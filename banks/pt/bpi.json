@@ -1,11 +1,11 @@
 {
   "name": "bpi",
-  "prefixes": [
-    415159
-  ],
   "country": "pt",
   "localTitle": "Banco Português de Investimento (BPI)",
   "engTitle": "Portuguese Investment Bank",
   "url": "www.bancobpi.pt",
-  "color": "#ff8d00"
+  "color": "#ff8d00",
+  "prefixes": [
+    415159
+  ]
 }

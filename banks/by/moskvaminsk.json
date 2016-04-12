@@ -1,11 +1,11 @@
 {
   "name": "moskvaminsk",
-  "prefixes": [
-    446505
-  ],
   "country": "by",
   "localTitle": "Банк Москва-Минск",
   "engTitle": "Bank Moskva-Minsk",
   "url": "http://www.mmbank.by/",
-  "color": "#f2000d"
+  "color": "#f2000d",
+  "prefixes": [
+    446505
+  ]
 }

@@ -1,5 +1,10 @@
 {
   "name": "americanexpress",
+  "country": "us",
+  "localTitle": "American Express",
+  "engTitle": "American Express",
+  "url": "https://www.americanexpress.com",
+  "color": "#004fc5",
   "prefixes": [
     370370,
     370371,
@@ -8883,10 +8888,5 @@
     379997,
     379998,
     379999
-  ],
-  "country": "us",
-  "localTitle": "American Express",
-  "engTitle": "American Express",
-  "url": "https://www.americanexpress.com",
-  "color": "#004fc5"
+  ]
 }

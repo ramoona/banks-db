@@ -1,5 +1,10 @@
 {
   "name": "natwest",
+  "country": "gb",
+  "localTitle": "NatWest",
+  "engTitle": "NatWest",
+  "url": "http://personal.natwest.com/personal.html",
+  "color": "#42145f",
   "prefixes": [
     426326,
     475117,
@@ -175,10 +180,5 @@
     676798,
     676819,
     677121
-  ],
-  "country": "gb",
-  "localTitle": "NatWest",
-  "engTitle": "NatWest",
-  "url": "http://personal.natwest.com/personal.html",
-  "color": "#42145f"
+  ]
 }

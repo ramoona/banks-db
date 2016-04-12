@@ -1,5 +1,10 @@
 {
   "name": "sberbank",
+  "country": "ru",
+  "localTitle": "Сбербанк",
+  "engTitle": "Sberbank",
+  "url": "https://www.sberbank.ru",
+  "color": "#309c0b",
   "prefixes": [
     427466,
     427467,
@@ -25,10 +30,5 @@
     54695,
     639002,
     67758
-  ],
-  "country": "ru",
-  "localTitle": "Сбербанк",
-  "engTitle": "Sberbank",
-  "url": "https://www.sberbank.ru",
-  "color": "#309c0b"
+  ]
 }

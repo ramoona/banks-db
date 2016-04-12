@@ -6,17 +6,16 @@
 4. Create new JSON file in `banks/%country%` folder and call it same as your bank `name` (lowercase). In case your country folder isn't exist yet, just add it. Make sure that your bank `country` matches with name of folder where you put it.
 5. Fill your JSON with this guide:
 
-  * Required:
-      * `name`: bank codename in lowercase (same as your file name)
-      * `prefixes`: array of bank prefixes (each prefix must contain 5 or 6 digits)
-      * `country`: two letters code of bank country ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2))
-      * `localTitle`: bank title in local language
-      * `engTitle`: bank title in English
-      * `url`: link to official bank website
-      * `color`: bank brand color from official logo or website (HEX, lowercase)
+  * `name`: bank codename in lowercase (same as your file name)
+  * `country`: two letters code of bank country ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2))
+  * `localTitle`: bank title in local language
+  * `engTitle`: bank title in English
+  * `url`: link to official bank website
+  * `color`: bank brand color from official logo or website (HEX, lowercase)
+  * `defunct` : set `true` for banks with revoked license (optional)
+  * `prefixes`: array of bank prefixes (each prefix must contain 5 or 6 digits)
 
-  * Optional  
-    * `defunct` : set `true` for banks with revoked license
+  All attributes except `defunct` are REQUIRED.
 
   Here's an example:
 

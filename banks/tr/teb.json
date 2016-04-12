@@ -1,5 +1,10 @@
 {
   "name": "teb",
+  "country": "tr",
+  "localTitle": "Türk Ekonomi Bankası",
+  "engTitle": "Türk Ekonomi Bankası",
+  "url": "http://teb.com.tr/",
+  "color": "#4285f4",
   "prefixes": [
     402458,
     402459,
@@ -25,10 +30,5 @@
     530853,
     545124,
     553090
-  ],
-  "country": "tr",
-  "localTitle": "Türk Ekonomi Bankası",
-  "engTitle": "Türk Ekonomi Bankası",
-  "url": "http://teb.com.tr/",
-  "color": "#4285f4"
+  ]
 }

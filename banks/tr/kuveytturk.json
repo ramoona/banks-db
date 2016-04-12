@@ -1,5 +1,10 @@
 {
   "name": "kuveytturk",
+  "country": "tr",
+  "localTitle": "Kuveyt Türk",
+  "engTitle": "Kuveyt Türk",
+  "url": "https://kuveytturk.com.tr/",
+  "color": "#4285f4",
   "prefixes": [
     402589,
     402590,
@@ -16,10 +21,5 @@
     520180,
     525312,
     547564
-  ],
-  "country": "tr",
-  "localTitle": "Kuveyt Türk",
-  "engTitle": "Kuveyt Türk",
-  "url": "https://kuveytturk.com.tr/",
-  "color": "#4285f4"
+  ]
 }

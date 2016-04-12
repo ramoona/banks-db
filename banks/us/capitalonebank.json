@@ -1,5 +1,10 @@
 {
   "name": "capitalonebank",
+  "country": "us",
+  "localTitle": "Capital One Bank",
+  "engTitle": "Capital One Bank",
+  "url": "https://www.capitalone.com/",
+  "color": "#004779",
   "prefixes": [
     400112,
     400229,
@@ -90,10 +95,5 @@
     557017,
     557108,
     557116
-  ],
-  "country": "us",
-  "localTitle": "Capital One Bank",
-  "engTitle": "Capital One Bank",
-  "url": "https://www.capitalone.com/",
-  "color": "#004779"
+  ]
 }

@@ -1,5 +1,10 @@
 {
   "name": "bpssberbank",
+  "country": "by",
+  "localTitle": "БПС-Сбербанк",
+  "engTitle": "BPS-Sberbank",
+  "url": "http://www.bps-sberbank.by/",
+  "color": "#1b991b",
   "prefixes": [
     413856,
     413857,
@@ -10,10 +15,5 @@
     540234,
     544454,
     558682
-  ],
-  "country": "by",
-  "localTitle": "БПС-Сбербанк",
-  "engTitle": "BPS-Sberbank",
-  "url": "http://www.bps-sberbank.by/",
-  "color": "#1b991b"
+  ]
 }

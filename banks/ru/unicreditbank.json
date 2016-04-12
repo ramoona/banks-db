@@ -1,11 +1,11 @@
 {
   "name": "unicreditbank",
-  "prefixes": [
-    531344
-  ],
   "country": "ru",
   "localTitle": "ЮниКредит Банк",
   "engTitle": "UniCredit Bank",
   "url": "https://www.unicreditbank.ru/",
-  "color": "#e3001a"
+  "color": "#e3001a",
+  "prefixes": [
+    531344
+  ]
 }

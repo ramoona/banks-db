@@ -1,11 +1,11 @@
 {
   "name": "vozrozhdenie",
-  "prefixes": [
-    526469
-  ],
   "country": "ru",
   "localTitle": "Возрождение",
   "engTitle": "Vozrozhdenie",
   "url": "http://www.vbank.ru/",
-  "color": "#224f84"
+  "color": "#224f84",
+  "prefixes": [
+    526469
+  ]
 }

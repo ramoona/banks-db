@@ -1,5 +1,10 @@
 {
   "name": "vakifbank",
+  "country": "tr",
+  "localTitle": "Vakıf Bank",
+  "engTitle": "Vakıf Bank",
+  "url": "https://vakifbank.com.tr/",
+  "color": "#4285f4",
   "prefixes": [
     402940,
     409084,
@@ -22,10 +27,5 @@
     542804,
     547244,
     552101
-  ],
-  "country": "tr",
-  "localTitle": "Vakıf Bank",
-  "engTitle": "Vakıf Bank",
-  "url": "https://vakifbank.com.tr/",
-  "color": "#4285f4"
+  ]
 }

@@ -1,5 +1,10 @@
 {
   "name": "bankasya",
+  "country": "tr",
+  "localTitle": "Bank Asya",
+  "engTitle": "Bank Asya",
+  "url": "https://bankasya.com.tr/",
+  "color": "#4285f4",
   "prefixes": [
     402275,
     402276,
@@ -13,10 +18,5 @@
     531334,
     547799,
     552529
-  ],
-  "country": "tr",
-  "localTitle": "Bank Asya",
-  "engTitle": "Bank Asya",
-  "url": "https://bankasya.com.tr/",
-  "color": "#4285f4"
+  ]
 }

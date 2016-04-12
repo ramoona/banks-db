@@ -1,5 +1,10 @@
 {
   "name": "abc",
+  "country": "cn",
+  "localTitle": "中国农业银行",
+  "engTitle": "Agricultural Bank of China",
+  "url": "http://www.abchina.com/",
+  "color": "#319c8b",
   "prefixes": [
     403361,
     404117,
@@ -18,10 +23,5 @@
     622836,
     622837,
     622848
-  ],
-  "country": "cn",
-  "localTitle": "中国农业银行",
-  "engTitle": "Agricultural Bank of China",
-  "url": "http://www.abchina.com/",
-  "color": "#319c8b"
+  ]
 }

@@ -1,5 +1,10 @@
 {
   "name": "hxb",
+  "country": "cn",
+  "localTitle": "华夏银行",
+  "engTitle": "Huaxia Bank",
+  "url": "http://www.hxb.com.cn/",
+  "color": "#d80c18",
   "prefixes": [
     523959,
     528708,
@@ -8,10 +13,5 @@
     539868,
     622636,
     622637
-  ],
-  "country": "cn",
-  "localTitle": "华夏银行",
-  "engTitle": "Huaxia Bank",
-  "url": "http://www.hxb.com.cn/",
-  "color": "#d80c18"
+  ]
 }

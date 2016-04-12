@@ -1,5 +1,10 @@
 {
   "name": "citic",
+  "country": "cn",
+  "localTitle": "中信银行",
+  "engTitle": "China Citic Bank",
+  "url": "http://bank.ecitic.com/",
+  "color": "#c8151c",
   "prefixes": [
     376966,
     376968,
@@ -34,10 +39,5 @@
     628206,
     628208,
     628209
-  ],
-  "country": "cn",
-  "localTitle": "中信银行",
-  "engTitle": "China Citic Bank",
-  "url": "http://bank.ecitic.com/",
-  "color": "#c8151c"
+  ]
 }

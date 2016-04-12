@@ -1,5 +1,10 @@
 {
   "name": "albaraka",
+  "country": "tr",
+  "localTitle": "al Baraka",
+  "engTitle": "al Baraka",
+  "url": "https://albaraka.com.tr/",
+  "color": "#4285f4",
   "prefixes": [
     417715,
     432284,
@@ -7,10 +12,5 @@
     534264,
     547234,
     548232
-  ],
-  "country": "tr",
-  "localTitle": "al Baraka",
-  "engTitle": "al Baraka",
-  "url": "https://albaraka.com.tr/",
-  "color": "#4285f4"
+  ]
 }

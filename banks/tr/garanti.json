@@ -1,5 +1,10 @@
 {
   "name": "garanti",
+  "country": "tr",
+  "localTitle": "Garanti Bankasi",
+  "engTitle": "Garanti Bankasi",
+  "url": "http://garanti.com.tr/",
+  "color": "#4285f4",
   "prefixes": [
     403280,
     403666,
@@ -65,10 +70,5 @@
     557023,
     557945,
     558699
-  ],
-  "country": "tr",
-  "localTitle": "Garanti Bankasi",
-  "engTitle": "Garanti Bankasi",
-  "url": "http://garanti.com.tr/",
-  "color": "#4285f4"
+  ]
 }

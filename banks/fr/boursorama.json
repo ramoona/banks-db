@@ -1,11 +1,11 @@
 {
   "name": "boursorama",
-  "prefixes": [
-    497958
-  ],
   "country": "fr",
   "localTitle": "Boursorama",
   "engTitle": "Boursorama",
   "url": "http://www.boursorama.com/",
-  "color": "#d20073"
+  "color": "#d20073",
+  "prefixes": [
+    497958
+  ]
 }

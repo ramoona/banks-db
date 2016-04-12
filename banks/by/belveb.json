@@ -1,5 +1,10 @@
 {
   "name": "belveb",
+  "country": "by",
+  "localTitle": "Банк БелВЭБ",
+  "engTitle": "BelVEB Bank",
+  "url": "http://www.bveb.by/",
+  "color": "#f37637",
   "prefixes": [
     414088,
     414297,
@@ -16,10 +21,5 @@
     544650,
     547747,
     548475
-  ],
-  "country": "by",
-  "localTitle": "Банк БелВЭБ",
-  "engTitle": "BelVEB Bank",
-  "url": "http://www.bveb.by/",
-  "color": "#f37637"
+  ]
 }

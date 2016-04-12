@@ -1,5 +1,10 @@
 {
   "name": "akbank",
+  "country": "tr",
+  "localTitle": "Akbank",
+  "engTitle": "Akbank",
+  "url": "https://akbank.com",
+  "color": "#4285f4",
   "prefixes": [
     413252,
     425669,
@@ -17,10 +22,5 @@
     553056,
     557113,
     557829
-  ],
-  "country": "tr",
-  "localTitle": "Akbank",
-  "engTitle": "Akbank",
-  "url": "https://akbank.com",
-  "color": "#4285f4"
+  ]
 }

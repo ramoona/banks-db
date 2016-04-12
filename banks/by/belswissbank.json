@@ -1,12 +1,12 @@
 {
   "name": "belswissbank",
-  "prefixes": [
-    410745,
-    410746
-  ],
   "country": "by",
   "localTitle": "БелСвиссБанк",
   "engTitle": "BelSwiss",
   "url": "https://www.bsb.by/",
-  "color": "#ee1d23"
+  "color": "#ee1d23",
+  "prefixes": [
+    410745,
+    410746
+  ]
 }

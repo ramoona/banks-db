@@ -1,11 +1,11 @@
 {
   "name": "ingdirect",
-  "prefixes": [
-    513625
-  ],
   "country": "fr",
   "localTitle": "ING Direct",
   "engTitle": "ING Direct",
   "url": "http://www.ingdirect.fr/",
-  "color": "#ff6600"
+  "color": "#ff6600",
+  "prefixes": [
+    513625
+  ]
 }

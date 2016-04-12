@@ -1,15 +1,15 @@
 {
   "name": "vtb",
+  "country": "by",
+  "localTitle": "ВТБ (Беларусь)",
+  "engTitle": "VTB (Belarus)",
+  "url": "http://www.vtb-bank.by",
+  "color": "#002e77",
   "prefixes": [
     445451,
     445452,
     445453,
     445454,
     471346
-  ],
-  "country": "by",
-  "localTitle": "ВТБ (Беларусь)",
-  "engTitle": "VTB (Belarus)",
-  "url": "http://www.vtb-bank.by",
-  "color": "#002e77"
+  ]
 }

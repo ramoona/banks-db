@@ -1,5 +1,10 @@
 {
   "name": "turkiyefinans",
+  "country": "tr",
+  "localTitle": "Türkiye Finans",
+  "engTitle": "Türkiye Finans",
+  "url": "https://turkiyefinans.com.tr/",
+  "color": "#4285f4",
   "prefixes": [
     404952,
     411685,
@@ -9,10 +14,5 @@
     521848,
     537719,
     549294
-  ],
-  "country": "tr",
-  "localTitle": "Türkiye Finans",
-  "engTitle": "Türkiye Finans",
-  "url": "https://turkiyefinans.com.tr/",
-  "color": "#4285f4"
+  ]
 }

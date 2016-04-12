@@ -1,5 +1,10 @@
 {
   "name": "yapikredi",
+  "country": "tr",
+  "localTitle": "Yapı ve Kredi Bankası",
+  "engTitle": "Yapı ve Kredi Bankası",
+  "url": "http://yapikredi.com.tr/",
+  "color": "#4285f4",
   "prefixes": [
     404809,
     446212,
@@ -24,10 +29,5 @@
     552645,
     552659,
     554422
-  ],
-  "country": "tr",
-  "localTitle": "Yapı ve Kredi Bankası",
-  "engTitle": "Yapı ve Kredi Bankası",
-  "url": "http://yapikredi.com.tr/",
-  "color": "#4285f4"
+  ]
 }

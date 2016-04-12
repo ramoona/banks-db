@@ -1,15 +1,15 @@
 {
   "name": "vtb24",
+  "country": "ru",
+  "localTitle": "ВТБ 24",
+  "engTitle": "VTB 24",
+  "url": "http://www.vtb24.ru",
+  "color": "#00498f",
   "prefixes": [
     427229,
     447520,
     46223,
     471487,
     527883
-  ],
-  "country": "ru",
-  "localTitle": "ВТБ 24",
-  "engTitle": "VTB 24",
-  "url": "http://www.vtb24.ru",
-  "color": "#00498f"
+  ]
 }

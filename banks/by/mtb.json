@@ -1,14 +1,14 @@
 {
   "name": "mtb",
+  "country": "by",
+  "localTitle": "МТБанк",
+  "engTitle": "MTBank",
+  "url": "http://www.mtbank.by",
+  "color": "#005aab",
   "prefixes": [
     417753,
     417754,
     417755,
     464990
-  ],
-  "country": "by",
-  "localTitle": "МТБанк",
-  "engTitle": "MTBank",
-  "url": "http://www.mtbank.by",
-  "color": "#005aab"
+  ]
 }

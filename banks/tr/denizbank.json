@@ -1,5 +1,10 @@
 {
   "name": "denizbank",
+  "country": "tr",
+  "localTitle": "Denizbank",
+  "engTitle": "Denizbank",
+  "url": "http://denizbank.com/",
+  "color": "#4285f4",
   "prefixes": [
     403134,
     408625,
@@ -37,10 +42,5 @@
     549220,
     554483,
     558514
-  ],
-  "country": "tr",
-  "localTitle": "Denizbank",
-  "engTitle": "Denizbank",
-  "url": "http://denizbank.com/",
-  "color": "#4285f4"
+  ]
 }

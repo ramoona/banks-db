@@ -1,11 +1,11 @@
 {
   "name": "nordeafinland",
-  "prefixes": [
-    492010
-  ],
   "country": "fi",
   "localTitle": "Nordea Pankki Suomi Oyj",
   "engTitle": "Nordea",
   "url": "http://www.nordea.fi/",
-  "color": "#055b90"
+  "color": "#055b90",
+  "prefixes": [
+    492010
+  ]
 }

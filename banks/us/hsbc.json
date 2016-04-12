@@ -1,5 +1,10 @@
 {
   "name": "hsbc",
+  "country": "us",
+  "localTitle": "HSBC",
+  "engTitle": "HSBC",
+  "url": "https://www.us.hsbc.com/",
+  "color": "#dd1f26",
   "prefixes": [
     401749,
     403000,
@@ -279,10 +284,5 @@
     552318,
     552319,
     554655
-  ],
-  "country": "us",
-  "localTitle": "HSBC",
-  "engTitle": "HSBC",
-  "url": "https://www.us.hsbc.com/",
-  "color": "#dd1f26"
+  ]
 }

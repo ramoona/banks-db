@@ -1,11 +1,11 @@
 {
   "name": "rocketbank",
-  "prefixes": [
-    532130
-  ],
   "country": "ru",
   "localTitle": "Рокетбанк",
   "engTitle": "Rocketbank",
   "url": "https://rocketbank.ru/",
-  "color": "#fb8000"
+  "color": "#fb8000",
+  "prefixes": [
+    532130
+  ]
 }

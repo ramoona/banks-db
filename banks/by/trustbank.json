@@ -1,13 +1,13 @@
 {
   "name": "trustbank",
-  "prefixes": [
-    411856,
-    432231,
-    432232
-  ],
   "country": "by",
   "localTitle": "Трастбанк",
   "engTitle": "Trustbank",
   "url": "http://www.trustbank.by/",
-  "color": "#a81429"
+  "color": "#a81429",
+  "prefixes": [
+    411856,
+    432231,
+    432232
+  ]
 }

@@ -1,11 +1,11 @@
 {
   "name": "ingbelgium",
-  "prefixes": [
-    42360
-  ],
   "country": "be",
   "localTitle": "ING Belgium",
   "engTitle": "ING Belgium",
   "url": "https://www.ing.be/",
-  "color": "#ff6600"
+  "color": "#ff6600",
+  "prefixes": [
+    42360
+  ]
 }

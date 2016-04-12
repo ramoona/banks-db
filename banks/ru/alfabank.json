@@ -1,5 +1,10 @@
 {
   "name": "alfabank",
+  "country": "ru",
+  "localTitle": "Альфа-Банк",
+  "engTitle": "Alfa-Bank",
+  "url": "https://alfabank.ru/",
+  "color": "#f22f17",
   "prefixes": [
     415428,
     415481,
@@ -12,10 +17,5 @@
     548673,
     555957,
     676371
-  ],
-  "country": "ru",
-  "localTitle": "Альфа-Банк",
-  "engTitle": "Alfa-Bank",
-  "url": "https://alfabank.ru/",
-  "color": "#f22f17"
+  ]
 }

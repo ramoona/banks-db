@@ -1,11 +1,11 @@
 {
   "name": "macro",
-  "prefixes": [
-    451764
-  ],
   "country": "ar",
   "localTitle": "Banco Macro",
   "engTitle": "Macro Bank",
   "url": "https://www.macro.com.ar",
-  "color": "#0c75a5"
+  "color": "#0c75a5",
+  "prefixes": [
+    451764
+  ]
 }

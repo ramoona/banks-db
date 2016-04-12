@@ -1,11 +1,11 @@
 {
   "name": "galicia",
-  "prefixes": [
-    402918
-  ],
   "country": "ar",
   "localTitle": "Banco Galicia/Naranja",
   "engTitle": "Galicia Bank / Naranja",
   "url": "http://www.bancogalicia.com/",
-  "color": "#ff6319"
+  "color": "#ff6319",
+  "prefixes": [
+    402918
+  ]
 }

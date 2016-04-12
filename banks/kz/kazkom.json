@@ -1,13 +1,13 @@
 {
   "name": "kazkom",
-  "prefixes": [
-    400303,
-    440564,
-    557834
-  ],
   "country": "kz",
   "localTitle": "Казкоммерцбанк",
   "engTitle": "Kazkommertsbank",
   "url": "http://kkb.kz/",
-  "color": "#008fb4"
+  "color": "#008fb4",
+  "prefixes": [
+    400303,
+    440564,
+    557834
+  ]
 }

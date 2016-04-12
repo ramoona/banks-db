@@ -1,11 +1,11 @@
 {
   "name": "tdcanadatrust",
-  "prefixes": [
-    472409
-  ],
   "country": "ca",
   "localTitle": "TD Canada Trust",
   "engTitle": "TD Canada Trust",
   "url": "https://www.tdcanadatrust.com",
-  "color": "#20b14a"
+  "color": "#20b14a",
+  "prefixes": [
+    472409
+  ]
 }

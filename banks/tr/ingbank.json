@@ -1,5 +1,10 @@
 {
   "name": "ingbank",
+  "country": "tr",
+  "localTitle": "ING Bank",
+  "engTitle": "ING Bank",
+  "url": "https://ingbank.com.tr/",
+  "color": "#4285f4",
   "prefixes": [
     400684,
     408579,
@@ -24,10 +29,5 @@
     548819,
     554297,
     554570
-  ],
-  "country": "tr",
-  "localTitle": "ING Bank",
-  "engTitle": "ING Bank",
-  "url": "https://ingbank.com.tr/",
-  "color": "#4285f4"
+  ]
 }

@@ -1,14 +1,14 @@
 {
   "name": "belaruskynarodny",
+  "country": "by",
+  "localTitle": "Белорусский народный банк",
+  "engTitle": "Beloruskii Narodny Bank",
+  "url": "http://www.bnb.by",
+  "color": "#f89828",
   "prefixes": [
     450040,
     450041,
     450042,
     489062
-  ],
-  "country": "by",
-  "localTitle": "Белорусский народный банк",
-  "engTitle": "Beloruskii Narodny Bank",
-  "url": "http://www.bnb.by",
-  "color": "#f89828"
+  ]
 }

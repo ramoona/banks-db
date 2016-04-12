@@ -1,15 +1,15 @@
 {
   "name": "alfabank",
+  "country": "by",
+  "localTitle": "Альфабанк",
+  "engTitle": "Alfabank",
+  "url": "https://www.alfabank.by/",
+  "color": "#ee3124",
   "prefixes": [
     437350,
     458520,
     458521,
     458522,
     458523
-  ],
-  "country": "by",
-  "localTitle": "Альфабанк",
-  "engTitle": "Alfabank",
-  "url": "https://www.alfabank.by/",
-  "color": "#ee3124"
+  ]
 }

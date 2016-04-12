@@ -1,5 +1,10 @@
 {
   "name": "belinvestbank",
+  "country": "by",
+  "localTitle": "Белинвестбанк",
+  "engTitle": "Belinvestbank",
+  "url": "http://www.belinvestbank.by/",
+  "color": "#009881",
   "prefixes": [
     401346,
     434484,
@@ -11,10 +16,5 @@
     557749,
     557884,
     557885
-  ],
-  "country": "by",
-  "localTitle": "Белинвестбанк",
-  "engTitle": "Belinvestbank",
-  "url": "http://www.belinvestbank.by/",
-  "color": "#009881"
+  ]
 }

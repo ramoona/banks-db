@@ -1,5 +1,10 @@
 {
   "name": "cmib",
+  "country": "cn",
+  "localTitle": "中国民生银行",
+  "engTitle": "China Minsheng Bank",
+  "url": "http://www.cmbc.com.cn/",
+  "color": "#0053b6",
   "prefixes": [
     407405,
     415599,
@@ -17,10 +22,5 @@
     622603,
     622622,
     628258
-  ],
-  "country": "cn",
-  "localTitle": "中国民生银行",
-  "engTitle": "China Minsheng Bank",
-  "url": "http://www.cmbc.com.cn/",
-  "color": "#0053b6"
+  ]
 }

@@ -1,5 +1,10 @@
 {
   "name": "halkbank",
+  "country": "tr",
+  "localTitle": "Halk Bankası",
+  "engTitle": "Halk Bankası",
+  "url": "https://halkbank.com.tr/",
+  "color": "#4285f4",
   "prefixes": [
     415514,
     492094,
@@ -10,10 +15,5 @@
     540435,
     543081,
     552879
-  ],
-  "country": "tr",
-  "localTitle": "Halk Bankası",
-  "engTitle": "Halk Bankası",
-  "url": "https://halkbank.com.tr/",
-  "color": "#4285f4"
+  ]
 }

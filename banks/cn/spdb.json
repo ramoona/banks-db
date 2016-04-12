@@ -1,5 +1,10 @@
 {
   "name": "spdb",
+  "country": "cn",
+  "localTitle": "浦东发展银行",
+  "engTitle": "Shanghai Pudong Development Bank",
+  "url": "http://www.spdb.com.cn",
+  "color": "#072154",
   "prefixes": [
     622516,
     622517,
@@ -8,10 +13,5 @@
     622521,
     622522,
     622523
-  ],
-  "country": "cn",
-  "localTitle": "浦东发展银行",
-  "engTitle": "Shanghai Pudong Development Bank",
-  "url": "http://www.spdb.com.cn",
-  "color": "#072154"
+  ]
 }

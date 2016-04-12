@@ -1,5 +1,10 @@
 {
   "name": "sekerbank",
+  "country": "tr",
+  "localTitle": "Şeker Bank",
+  "engTitle": "Şeker Bank",
+  "url": "http://sekerbank.com.tr/",
+  "color": "#4285f4",
   "prefixes": [
     403836,
     411156,
@@ -19,10 +24,5 @@
     547311,
     549208,
     549394
-  ],
-  "country": "tr",
-  "localTitle": "Şeker Bank",
-  "engTitle": "Şeker Bank",
-  "url": "http://sekerbank.com.tr/",
-  "color": "#4285f4"
+  ]
 }

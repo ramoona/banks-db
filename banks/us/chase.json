@@ -1,5 +1,10 @@
 {
   "name": "chase",
+  "country": "us",
+  "localTitle": "Chase",
+  "engTitle": "Chase",
+  "url": "https://www.chase.com/",
+  "color": "#0f5ba7",
   "prefixes": [
     401135,
     401136,
@@ -2925,10 +2930,5 @@
     589957,
     601340,
     603028
-  ],
-  "country": "us",
-  "localTitle": "Chase",
-  "engTitle": "Chase",
-  "url": "https://www.chase.com/",
-  "color": "#0f5ba7"
+  ]
 }

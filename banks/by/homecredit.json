@@ -1,13 +1,13 @@
 {
   "name": "homecredit",
-  "prefixes": [
-    510415,
-    510428,
-    528065
-  ],
   "country": "by",
   "localTitle": "Хоум Кредит Банк",
   "engTitle": "Home Credit Bank",
   "url": "http://homecredit.by/",
-  "color": "#e03a3e"
+  "color": "#e03a3e",
+  "prefixes": [
+    510415,
+    510428,
+    528065
+  ]
 }
