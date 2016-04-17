@@ -1,9 +1,9 @@
 {
   "name": "banks-db",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "description": "Bankcards BIN database",
   "author": "Linda Rian <lindarian12@gmail.com>",
-  "repository": "Ramoona/banks-db",
+  "repository": "ramoona/banks-db",
   "keywords": [
     "bankcard",
     "bin",
