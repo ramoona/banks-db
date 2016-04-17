@@ -7,7 +7,9 @@ Returns bank name and brand color by bankcard prefix (BIN).
 
 It is useful on billing pages to use bank’s brand color when user starts to type card number.
 
-<img alt='banks-db usage example' src="https://raw.githubusercontent.com/ramoona/banks-db-demo/gh-pages/demo-example.jpg" width="500px" />
+<img src="https://ramoona.github.io/banks-db-demo/demo-example.jpg"
+     alt="banks-db usage example"
+     width="500px" height="500px" />
 
 It is a community driven database, so it can potentially contain mistakes. It's not a problem for UX enhancement,
 but you must not use it in your billing logic.
