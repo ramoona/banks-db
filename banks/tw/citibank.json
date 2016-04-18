@@ -1,0 +1,12 @@
+{
+  "name": "citibank",
+  "country": "tw",
+  "localTitle": "花旗銀行",
+  "engTitle": "Citibank",
+  "url": "https://www.citibank.com.tw/",
+  "color": "#0088cf",
+  "prefixes": [
+    428440,
+    431178
+  ]
+}

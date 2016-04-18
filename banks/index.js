@@ -14,5 +14,6 @@ module.exports = [
   require('./pt/index'),
   require('./ru/index'),
   require('./tr/index'),
+  require('./tw/index'),
   require('./us/index')
 ];
