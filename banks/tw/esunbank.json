@@ -1,0 +1,12 @@
+{
+  "name": "esunbank",
+  "country": "tw",
+  "localTitle": "玉山商業銀行",
+  "engTitle": "E.SUN Commercial Bank",
+  "url": "https://www.esunbank.com.tw",
+  "color": "#2c9d8e",
+  "prefixes": [
+    356618,
+    524255
+  ]
+}
