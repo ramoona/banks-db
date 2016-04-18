@@ -1,0 +1,15 @@
+{
+  "name": "anz",
+  "country": "tw",
+  "localTitle": "澳盛(台灣)商業銀行",
+  "engTitle": "ANZ Bank (Taiwan)",
+  "url": "http://www.anz.tw",
+  "color": "#003F67",
+  "prefixes": [
+    442355,
+    468236,
+    515687,
+    539657,
+    552129
+  ]
+}
