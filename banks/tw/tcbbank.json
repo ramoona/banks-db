@@ -1,0 +1,11 @@
+{
+  "name": "tcbbank",
+  "country": "tw",
+  "localTitle": "台中商業銀行",
+  "engTitle": "TAICHUNG BANK",
+  "url": "https://www.tcbbank.com.tw",
+  "color": "#CE1624",
+  "prefixes": [
+    558888
+  ]
+}
