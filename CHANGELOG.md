@@ -1,3 +1,22 @@
+## v0.10.3
+#### Added
+
+* Banks:
+
+    | Bank        | Country           |
+    | ------------- |:-------------:|
+    | ANZ Bank | TW |
+    | Cathay United Bank | TW |
+    | Citibank Taiwan | TW |
+    | CTBC Bank | TW |
+    | E.SUN Bank | TW |
+    | Taipei Fubon Bank | TW |
+    | Hua Nan Bank | TW |
+    | The Shanghai Commercial & Savings Bank, Ltd. | TW |
+    | Taichung Bank | TW |
+    | Revolut | GB |
+    | Payoneer | US |   
+
 ## v0.10.2
 #### Added
 
