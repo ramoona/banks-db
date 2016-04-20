@@ -1,4 +1,5 @@
 module.exports = [
   require('./barclays'),
-  require('./natwest')
+  require('./natwest'),
+  require('./revolut')
 ];

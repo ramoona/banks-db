@@ -1,0 +1,11 @@
+{
+  "name": "revolut",
+  "country": "gb",
+  "localTitle": "Revolut",
+  "engTitle": "Revolut",
+  "url": "https://revolut.com/",
+  "color": "#1574e2",
+  "prefixes": [
+    539123
+  ]
+}

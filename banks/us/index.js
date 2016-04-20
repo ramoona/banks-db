@@ -7,6 +7,7 @@ module.exports = [
   require('./citibank'),
   require('./googlewallet'),
   require('./hsbc'),
+  require('./payoneer'),
   require('./tdbank'),
   require('./wellsfargo')
 ];

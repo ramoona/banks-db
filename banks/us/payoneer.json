@@ -1,0 +1,11 @@
+{
+  "name": "payoneer",
+  "country": "us",
+  "localTitle": "Payoneer",
+  "engTitle": "Payoneer",
+  "url": "https://www.payoneer.com/",
+  "color": "#ff4800",
+  "prefixes": [
+    530072
+  ]
+}
