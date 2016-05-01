@@ -1,3 +1,14 @@
+## v0.10.4
+#### Added
+
+* Banks
+
+    | Bank      | Country      |
+    | --------- |:------------:|
+    | Bank of New Zealand | NZ |
+    | Metabank | US |
+    | Fifth Third Bank | US |
+
 ## v0.10.3
 #### Added
 
