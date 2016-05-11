@@ -1,4 +1,5 @@
 module.exports = [
+  require('./akbarsbank'),
   require('./alfabank'),
   require('./citibank'),
   require('./gazprombank'),

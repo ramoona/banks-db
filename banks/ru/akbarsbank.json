@@ -1,0 +1,18 @@
+{
+  "name": "akbarsbank",
+  "country": "ru",
+  "localTitle": "Ак Барс Банк",
+  "engTitle": "Ak Bars Bank",
+  "url": "https://www.akbars.ru/",
+  "color": "#019d3c",
+  "prefixes": [
+    424436,
+    424438,
+    424439,
+    424440,
+    424447,
+    520935,
+    520985,
+    552958
+  ]
+}
