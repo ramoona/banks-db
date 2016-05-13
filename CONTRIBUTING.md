@@ -33,6 +33,14 @@
         123456,
       ]
     }
-    ```
-6. Make sure that `npm test` is still passing.
-7. Submit a pull request.
+  ```
+6. Include your file in `index.js` of `banks/%country%` folder in alphabetical order like this:
+   ```js
+     module.exports = [
+       require('./l-bank'),
+       require('./my-bank'),
+       require('./n-bank')
+     ];
+   ```
+7. Make sure that `npm test` is still passing.
+8. Submit a pull request.
