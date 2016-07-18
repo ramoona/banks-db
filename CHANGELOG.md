@@ -1,3 +1,14 @@
+## v0.10.5
+#### Added
+
+* Banks
+
+    | Bank      | Country      |
+    | --------- |:------------:|
+    | Ak Bars Bank | RU |
+    | Societe Generale Banka Srbija Ad Beograd | RS |
+    | DemirBank | KG |
+
 ## v0.10.4
 #### Added
 
