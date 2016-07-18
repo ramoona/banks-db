@@ -1,0 +1,12 @@
+{
+  "name": "demirbank",
+  "country": "kg",
+  "localTitle": "Демир Кыргыз Интернэшнл Банк",
+  "engTitle": "DemirBank",
+  "url": "http://demirbank.kg/",
+  "color": "#c21f1a",
+  "prefixes": [
+    417219,
+    417221
+  ]
+}
