@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = function detectCardType(cardNumber) {
   const card = cardNumber.toString().replace(/[^\d]/g, '');
   const types = {

@@ -1,3 +1,5 @@
+'use strict';
+
 var type = require('./type');
 var data = require('./banks/index');
 var banks = [];

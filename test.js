@@ -1,3 +1,5 @@
+'use strict';
+
 const test = require('ava');
 const banksDB = require('.');
 const type = require('./type');
