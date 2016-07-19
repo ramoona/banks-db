@@ -1,0 +1,11 @@
+{
+  "name": "uniastrumbank",
+  "country": "ru",
+  "localTitle": "Юниаструм Банк",
+  "engTitle": "Uniastrum Bank",
+  "url": "https://www.uniastrum.ru",
+  "color": "#00718f",
+  "prefixes": [
+    403330
+  ]
+}
