@@ -1,0 +1,12 @@
+{
+  "name": "brou",
+  "country": "uy",
+  "localTitle": "Banco de la República Oriental del Uruguay",
+  "engTitle": "Bank of the Oriental Republic of Uruguay",
+  "url": "http://www.brou.com.uy/",
+  "color": "#024181",
+  "prefixes": [
+    421821,
+    494016
+  ]
+}
