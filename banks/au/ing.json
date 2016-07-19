@@ -1,0 +1,11 @@
+{
+  "name": "ing",
+  "country": "au",
+  "localTitle": "ING Direct",
+  "engTitle": "ING Direct",
+  "url": "https://www.ingdirect.com.au/",
+  "color": "#ff6200",
+  "prefixes": [
+    462263
+  ]
+}
