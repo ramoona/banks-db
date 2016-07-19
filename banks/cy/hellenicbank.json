@@ -1,0 +1,11 @@
+{
+  "name": "hellenicbank",
+  "country": "cy",
+  "localTitle": "Ελληνική Τράπεζα",
+  "engTitle": "Hellenic Bank",
+  "url": "https://www.hellenicbank.com/",
+  "color": "#003F7E",
+  "prefixes": [
+    456747
+  ]
+}
