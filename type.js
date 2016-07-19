@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = function detectCardType(cardNumber) {
-  const card = cardNumber.toString().replace(/[^\d]/g, '');
-  const types = {
+  var card = cardNumber.toString().replace(/[^\d]/g, '');
+  var types = {
     electron: /^(4026|417500|4405|4508|4844|4913|4917)\d+$/,
     maestro: /^(5018|5020|5038|5612|5893|6304|6759|6761|6762|6763|0604|6390)\d+$/,
     dankort: /^(5019)\d+$/,
