@@ -1,0 +1,16 @@
+{
+  "name": "anz",
+  "country": "au",
+  "localTitle": "ANZ",
+  "engTitle": "ANZ",
+  "url": "https://www.anz.com/",
+  "color": "#007dba",
+  "prefixes": [
+    407220,
+    450949,
+    456462,
+    456468,
+    456469,
+    546827
+  ]
+}

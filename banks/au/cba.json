@@ -1,0 +1,18 @@
+{
+  "name": "cba",
+  "country": "au",
+  "localTitle": "Commonwealth Bank of Australia",
+  "engTitle": "Commonwealth Bank of Australia",
+  "url": "https://www.commbank.com.au/",
+  "color": "#f3c40e",
+  "prefixes": [
+    405221,
+    494052,
+    494053,
+    535316,
+    535318,
+    535319,
+    552033,
+    555005
+  ]
+}
