@@ -1,0 +1,12 @@
+{
+  "name": "santander",
+  "country": "uy",
+  "localTitle": "Santander",
+  "engTitle": "Santander",
+  "url": "http://www.santander.com.uy/",
+  "color": "#ff0000",
+  "prefixes": [
+    534263,
+    545703
+  ]
+}
