@@ -10,6 +10,7 @@ module.exports = [
   require('./sberbank'),
   require('./siab'),
   require('./tinkoff'),
+  require('./uniastrumbank'),
   require('./unicreditbank'),
   require('./vozrozhdenie'),
   require('./vtb24'),
