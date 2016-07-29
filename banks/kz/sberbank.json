@@ -1,0 +1,11 @@
+{
+  "name": "sberbank",
+  "country": "kz",
+  "localTitle": "Сбербанк",
+  "engTitle": "Sberbank",
+  "url": "https://www.sberbank.kz",
+  "color": "#309c0b",
+  "prefixes": [
+    426344
+  ]
+}

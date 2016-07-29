@@ -1,0 +1,11 @@
+{
+  "name": "postbank",
+  "country": "de",
+  "localTitle": "Postbank",
+  "engTitle": "Postbank",
+  "url": "https://www.postbank.de/",
+  "color": "#ffcc00",
+  "prefixes": [
+    494116
+  ]
+}

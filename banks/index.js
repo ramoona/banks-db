@@ -7,6 +7,7 @@ module.exports = [
   require('./cn/index'),
   require('./cy/index'),
   require('./cz/index'),
+  require('./de/index'),
   require('./dk/index'),
   require('./fi/index'),
   require('./fr/index'),
@@ -19,6 +20,8 @@ module.exports = [
   require('./ru/index'),
   require('./tr/index'),
   require('./tw/index'),
+  require('./ua/index'),
+  require('./uk/index'),
   require('./us/index'),
   require('./uy/index')
 ];

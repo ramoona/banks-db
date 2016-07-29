@@ -1,0 +1,13 @@
+{
+  "name": "promsvyazbank",
+  "country": "ru",
+  "localTitle": "Промсвязьбанк",
+  "engTitle": "Promsvyazbank",
+  "url": "http://www.psbank.ru/",
+  "color": "#274193",
+  "prefixes": [
+    411791,
+    554759,
+    554781
+  ]
+}

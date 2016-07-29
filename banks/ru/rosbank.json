@@ -1,0 +1,11 @@
+{
+  "name": "rosbank",
+  "country": "ru",
+  "localTitle": "Росбанк",
+  "engTitle": "Rosbank",
+  "url": "https://www.rosbank.ru/",
+  "color": "#e60028",
+  "prefixes": [
+    554761
+  ]
+}

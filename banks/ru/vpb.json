@@ -1,0 +1,11 @@
+{
+  "name": "vpb",
+  "country": "ru",
+  "localTitle": "ВПБ",
+  "engTitle": "VPB",
+  "url": "https://www.vpb.ru",
+  "color": "#0071b9",
+  "prefixes": [
+    534134
+  ]
+}

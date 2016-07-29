@@ -1,0 +1,11 @@
+{
+  "name": "rosevrobank",
+  "country": "ru",
+  "localTitle": "РосЕвроБанк",
+  "engTitle": "RosEvro Bank",
+  "url": "http://www.rosevrobank.ru/",
+  "color": "#6c2870",
+  "prefixes": [
+    418907
+  ]
+}

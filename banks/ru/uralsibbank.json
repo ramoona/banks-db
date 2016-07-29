@@ -1,0 +1,12 @@
+{
+  "name": "uralsibbank",
+  "country": "ru",
+  "localTitle": "УралСиб Банк",
+  "engTitle": "UralSib Bank",
+  "url": "https://www.bankuralsib.ru/",
+  "color": "#53b548",
+  "prefixes": [
+    424204,
+    440666
+  ]
+}
