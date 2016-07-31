@@ -1,3 +1,30 @@
+## v0.10.6
+#### Added
+
+* Banks
+
+    | Bank      | Country      |
+    | --------- |:------------:|
+    | Hellenic Bank | CY |
+    | Uniastrum Bank | RU |
+    | Bank of the Oriental Republic of Uruguay | UY |
+    | Santander | UY |
+    | ANZ | AU |
+    | Commonwealth Bank of Australia | AU |
+    | ING Direct | AU |
+
+* Prefixes
+
+    | Bank      | Country      |
+    | --------- |:------------:|
+    | Bank of America | US |
+    | Sberbank | RU |
+
+#### Fixed
+
+Safari support 🙌
+
+
 ## v0.10.5
 #### Added
 
