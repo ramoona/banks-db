@@ -36,3 +36,7 @@
     ```
 6. Make sure that `npm test` is still passing.
 7. Submit a pull request.
+
+### Notice
+
+Don't create or modify index.js files in banks folders manually — they are generated. You can run `npm run build` to update them.
