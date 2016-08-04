@@ -2,6 +2,7 @@
 [![Build Status](https://img.shields.io/travis/ramoona/banks-db/master.svg?style=flat-square)](https://travis-ci.org/ramoona/banks-db)
 [![Latest Stable Version](https://img.shields.io/npm/v/banks-db.svg?style=flat-square)](https://www.npmjs.com/package/banks-db)
 [![NPM Downloads](https://img.shields.io/npm/dm/banks-db.svg?style=flat-square)](https://www.npmjs.com/package/banks-db)
+[![Known Vulnerabilities](https://snyk.io/test/github/ramoona/banks-db/badge.svg?style=flat-square)](https://snyk.io/test/github/ramoona/banks-db)
 
 Returns bank name and brand color by bankcard prefix (BIN).
 
