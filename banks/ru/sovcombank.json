@@ -1,0 +1,11 @@
+{
+  "name": "sovcombank",
+  "country": "ru",
+  "localTitle": "Совкомбанк",
+  "engTitle": "Sovcombank",
+  "url": "https://sovcombank.ru/",
+  "color": "#134c7c",
+  "prefixes": [
+    533595
+  ]
+}

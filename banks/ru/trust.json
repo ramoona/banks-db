@@ -1,0 +1,12 @@
+{
+  "name": "trust",
+  "country": "ru",
+  "localTitle": "Траст",
+  "engTitle": "Trust",
+  "url": "http://www.trust.ru/",
+  "color": "#f8ab21",
+  "prefixes": [
+    456515,
+    554521
+  ]
+}

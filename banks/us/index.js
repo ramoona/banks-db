@@ -8,6 +8,7 @@ module.exports = [
   require('./fifththird'),
   require('./googlewallet'),
   require('./hsbc'),
+  require('./jpmorganchase'),
   require('./metabank'),
   require('./payoneer'),
   require('./tdbank'),

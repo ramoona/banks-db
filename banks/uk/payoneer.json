@@ -1,0 +1,11 @@
+{
+  "name": "payoneer",
+  "country": "uk",
+  "localTitle": "Payoneer",
+  "engTitle": "Payoneer",
+  "url": "http://www.trust.ru/",
+  "color": "#ff4800",
+  "prefixes": [
+    530072
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "privatbank",
+  "country": "ua",
+  "localTitle": "ПриватБанк",
+  "engTitle": "Privatbank",
+  "url": "https://privatbank.ua/",
+  "color": "#498d2f",
+  "prefixes": [
+    414949,
+    414960,
+    414962,
+    473118,
+    516874,
+    516875,
+    516933,
+    521153,
+    536354,
+    552324
+  ]
+}

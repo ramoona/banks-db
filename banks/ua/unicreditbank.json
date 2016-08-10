@@ -1,14 +1,11 @@
 {
   "name": "unicreditbank",
-  "country": "ru",
+  "country": "ua",
   "localTitle": "ЮниКредит Банк",
   "engTitle": "UniCredit Bank",
-  "url": "https://www.unicreditbank.ru/",
+  "url": "https://unicredit.ua/",
   "color": "#e3001a",
   "prefixes": [
-    485608,
-    489042,
-    490855,
-    531344
+    487410
   ]
 }

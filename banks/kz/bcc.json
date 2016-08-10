@@ -1,0 +1,11 @@
+{
+  "name": "bcc",
+  "country": "kz",
+  "localTitle": "Банк ЦентрКредит",
+  "engTitle": "Bank CenterCredit",
+  "url": "https://www.bcc.kz/",
+  "color": "#008047",
+  "prefixes": [
+    466720
+  ]
+}
