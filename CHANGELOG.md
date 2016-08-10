@@ -1,3 +1,42 @@
+## v0.10.7
+#### Added
+
+* Banks
+
+    | Bank      | Country      |
+    | --------- |:------------:|
+    | Postbank | DE|
+    | Bank CenterCredit | KZ |
+    | Sberbank | KZ |
+    | Promsvyazbank | RU |
+    | Renaissance Capital | RU |
+    | Rosbank | RU |
+    | RosEvro Bank | RU |
+    | Sovcombank | RU |
+    | Trust | RU |
+    | UralSib Bank | RU |
+    | VPB | RU |
+    | Privatbank | UA |
+    | Ukrsibbank | UA |
+    | UniCredit Bank | UA |
+    | Payoneer | UK |
+    | JPMorgan Chase | US |
+
+* Prefixes
+
+    | Bank      | Country      |
+    | --------- |:------------:|
+    | Alfabank | RU |
+    | Citibank | RU |
+    | Gazprombank | RU |
+    | Credit Mutuel | FR |
+    | QIWI | RU |
+    | Raiffeisen | RU |
+    | Sberbank | RU |
+    | UniCredit Bank | RU |
+    | VTB 24 | RU |
+    | Yandex Money | RU |
+
 ## v0.10.6
 #### Added
 
