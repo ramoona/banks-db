@@ -1,0 +1,16 @@
+{
+  "name": "bwe",
+  "country": "au",
+  "localTitle": "Bankwest",
+  "engTitle": "Bankwest",
+  "url": "http://www.bankwest.com.au/",
+  "color": "#f79534",
+  "prefixes": [
+    456444,
+    522980,
+    528013,
+    532737,
+    540482,
+    543568
+  ]
+}
