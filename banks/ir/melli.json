@@ -1,0 +1,11 @@
+{
+  "name": "melli",
+  "country": "ir",
+  "localTitle": "بانک ملی ایران",
+  "engTitle": "Melli Bank",
+  "url": "http://bmi.ir/",
+  "color": "#dc3c00",
+  "prefixes": [
+    603799
+  ]
+}
