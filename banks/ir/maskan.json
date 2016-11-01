@@ -1,0 +1,11 @@
+{
+  "name": "maskan",
+  "country": "ir",
+  "localTitle": "بانک مسکن",
+  "engTitle": "Maskan Bank",
+  "url": "http://bank-maskan.ir/",
+  "color": "#e84b0a",
+  "prefixes": [
+    628023
+  ]
+}
