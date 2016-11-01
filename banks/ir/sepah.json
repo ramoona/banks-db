@@ -1,0 +1,11 @@
+{
+  "name": "sepah",
+  "country": "ir",
+  "localTitle": "بانک سپه",
+  "engTitle": "Sepah Bank",
+  "url": "https://www.ebanksepah.ir/",
+  "color": "#e67a00",
+  "prefixes": [
+    589210
+  ]
+}
