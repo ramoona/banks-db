@@ -1,4 +1,5 @@
 module.exports = [
+  require('./exportdevelopment'),
   require('./maskan'),
   require('./mellat'),
   require('./melli'),
