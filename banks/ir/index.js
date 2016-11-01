@@ -6,6 +6,7 @@ module.exports = [
   require('./mellat'),
   require('./melli'),
   require('./pasargad'),
+  require('./post'),
   require('./sepah'),
   require('./tejarat')
 ];

@@ -1,0 +1,11 @@
+{
+  "name": "post",
+  "country": "ir",
+  "localTitle": "پست بانک",
+  "engTitle": "Post Bank",
+  "url": "https://ib.postbank.ir/",
+  "color": "#006600",
+  "prefixes": [
+    627760
+  ]
+}
