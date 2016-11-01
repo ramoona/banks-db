@@ -1,24 +1,19 @@
-'use strict';
-
 var type = require('./type');
 var data = require('./banks/index');
-var banks = [];
 
-data.forEach(function (item) {
+var banks = [];
+var prefixes = {};
+
+data.forEach((item) => {
   banks = banks.concat(item);
 });
 
-banks.forEach(function (bank) {
-  bank.code = bank.country + '-' + bank.name;
+banks.forEach((bank) => {
+  bank.code = `${bank.country}-${bank.name}`;
+  bank.prefixes.forEach((prefix) => {
+    prefixes[prefix] = bank;
+  });
 });
-
-var prefixes = {};
-
-for (var i = 0; i < banks.length; i++) {
-  for (var j = 0; j < banks[i].prefixes.length; j++) {
-    prefixes[banks[i].prefixes[j]] = banks[i];
-  }
-}
 
 module.exports = function findBank(cardNumber) {
   cardNumber = cardNumber || '';

@@ -1,7 +1,6 @@
-'use strict';
-
 module.exports = function detectCardType(cardNumber) {
   var card = cardNumber.toString().replace(/[^\d]/g, '');
+  var result;
   var types = {
     electron: /^(4026|417500|4405|4508|4844|4913|4917)\d+$/,
     maestro: /^(5018|5020|5038|5612|5893|6304|6759|6761|6762|6763|0604|6390)\d+$/,
@@ -16,11 +15,12 @@ module.exports = function detectCardType(cardNumber) {
     jcb: /^(?:2131|1800|35\d{3})\d{11}$/,
     forbrugsforeningen: /^(600)\d+$/
   };
-  var type;
 
-  for (type in types) {
+  for (var type in types) {
     if (types[type].test(card)) {
-      return type.toString();
+      result = type.toString();
     }
   }
+
+  return result;
 };

@@ -1,33 +1,32 @@
-'use strict';
-
 const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
 const JSV = require('JSV').JSV;
-const linter = JSV.createEnvironment();
 const jsonfile = require('jsonfile');
+
+const linter = JSV.createEnvironment();
 
 function showError(filePath, error) {
   error = error || '';
-  console.error(chalk.red('FAIL ' + filePath + error));
+  console.error(chalk.red(`FAIL ${filePath}${error}`));
 }
 
 fs.readdir(path.join(__dirname, 'banks'), (err, files) => {
   if (err) throw err;
 
   const countries = files.filter(file =>
-    fs.lstatSync(path.join(__dirname, 'banks/' + file)).isDirectory());
+    fs.lstatSync(path.join(__dirname, `banks/${file}`)).isDirectory());
 
-  countries.forEach(country => {
+  countries.forEach((country) => {
     const banks = fs.readdirSync(
-      path.join(__dirname, 'banks/' + country)).filter(file => /\.json$/.test(file)
+      path.join(__dirname, `banks/${country}`)).filter(file => /\.json$/.test(file)
     );
 
     jsonfile.readFile(path.join(__dirname, 'schema.json'), (err1, schema) => {
       if (err1) throw err1;
 
-      banks.forEach(name => {
-        const bankPath = 'banks/' + country + '/' + name;
+      banks.forEach((name) => {
+        const bankPath = `banks/${country}/${name}`;
 
         jsonfile.readFile(path.join(__dirname, bankPath), (err2, bank) => {
           if (err2) throw err2;
@@ -54,11 +53,11 @@ fs.readdir(path.join(__dirname, 'banks'), (err, files) => {
               bank.color = bank.color.toLowerCase();
             }
 
-            jsonfile.writeFile(path.join(__dirname, bankPath), bank, { spaces: 2 }, err3 => {
+            jsonfile.writeFile(path.join(__dirname, bankPath), bank, { spaces: 2 }, (err3) => {
               if (err3) {
                 throw err3;
               } else {
-                console.log(chalk.green('OK ') + chalk.white('banks/' + country + '/' + name));
+                console.log(chalk.green('OK ') + chalk.white(`banks/${country}/${name}`));
               }
             });
           }
