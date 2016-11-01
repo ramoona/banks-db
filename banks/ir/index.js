@@ -1,4 +1,5 @@
 module.exports = [
   require('./maskan'),
-  require('./mellat')
+  require('./mellat'),
+  require('./pasargad')
 ];
