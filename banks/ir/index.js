@@ -8,5 +8,6 @@ module.exports = [
   require('./pasargad'),
   require('./post'),
   require('./sepah'),
-  require('./tejarat')
+  require('./tejarat'),
+  require('./toseetaavon')
 ];
