@@ -1,3 +1,4 @@
 module.exports = [
-  require('./maskan')
+  require('./maskan'),
+  require('./mellat')
 ];
