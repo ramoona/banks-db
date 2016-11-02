@@ -4,6 +4,7 @@ module.exports = [
   require('./eghtesadnovin'),
   require('./exportdevelopment'),
   require('./industryandmine'),
+  require('./iranzamin'),
   require('./karafarin'),
   require('./keshavarzi'),
   require('./maskan'),
