@@ -11,6 +11,7 @@ module.exports = [
   require('./parsian'),
   require('./pasargad'),
   require('./post'),
+  require('./saderat'),
   require('./saman'),
   require('./sarmayeh'),
   require('./sepah'),
