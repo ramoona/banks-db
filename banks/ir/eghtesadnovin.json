@@ -4,8 +4,10 @@
   "localTitle": "بانک اقتصاد نوین",
   "engTitle": "Eghtesad Novin Bank",
   "url": "http://www.enbank.ir/",
-  "color": "#804B96",
+  "color": "#b42728",
   "prefixes": [
-    627412
+    639194,
+    627412,
+    627884
   ]
 }

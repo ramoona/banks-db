@@ -6,6 +6,7 @@ module.exports = [
   require('./maskan'),
   require('./mellat'),
   require('./melli'),
+  require('./parsian'),
   require('./pasargad'),
   require('./post'),
   require('./sepah'),

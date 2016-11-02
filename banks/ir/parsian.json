@@ -1,0 +1,11 @@
+{
+  "name": "parsian",
+  "country": "ir",
+  "localTitle": "بانک پارسیان",
+  "engTitle": "Parsian Bank",
+  "url": "http://bpi.ir/",
+  "color": "#ffc41e",
+  "prefixes": [
+    622106
+  ]
+}
