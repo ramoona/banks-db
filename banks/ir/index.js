@@ -10,6 +10,7 @@ module.exports = [
   require('./parsian'),
   require('./pasargad'),
   require('./post'),
+  require('./saman'),
   require('./sepah'),
   require('./tejarat'),
   require('./toseetaavon')
