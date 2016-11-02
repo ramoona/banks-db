@@ -12,6 +12,7 @@ module.exports = [
   require('./post'),
   require('./saman'),
   require('./sepah'),
+  require('./sina'),
   require('./tejarat'),
   require('./toseetaavon')
 ];
