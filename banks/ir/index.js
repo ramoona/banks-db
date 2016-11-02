@@ -13,6 +13,7 @@ module.exports = [
   require('./saman'),
   require('./sarmayeh'),
   require('./sepah'),
+  require('./shahr'),
   require('./sina'),
   require('./tejarat'),
   require('./toseetaavon')

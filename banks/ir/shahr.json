@@ -1,0 +1,12 @@
+{
+  "name": "shahr",
+  "country": "ir",
+  "localTitle": "بانک شهر",
+  "engTitle": "Shahr Bank",
+  "url": "http://shahr-bank.ir/",
+  "color": "#ed1b24",
+  "prefixes": [
+    504706,
+    502806
+  ]
+}
