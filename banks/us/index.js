@@ -10,7 +10,9 @@ module.exports = [
   require('./hsbc'),
   require('./jpmorganchase'),
   require('./metabank'),
+  require('./navyfederal'),
   require('./payoneer'),
+  require('./suntrust'),
   require('./tdbank'),
   require('./wellsfargo')
 ];

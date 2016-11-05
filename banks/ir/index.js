@@ -1,7 +1,7 @@
 module.exports = [
-  require('./day'),
-  require('./central'),
   require('./ansar'),
+  require('./central'),
+  require('./day'),
   require('./eghtesadnovin'),
   require('./exportdevelopment'),
   require('./ghavamin'),

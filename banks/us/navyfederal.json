@@ -1,15 +1,15 @@
 {
-    "name": "navyfederal",
-    "country": "us",
-    "localTitle": "Navy Federal Credit Union",
-    "engTitle": "Navy Federal Credit Union",
-    "url": "https://www.navyfederal.org",
-    "color": "#0f4471",
-    "prefixes": [
-      406041,
-      400022,
-      406095,
-      406315,
-      403216
-    ]
-  }
+  "name": "navyfederal",
+  "country": "us",
+  "localTitle": "Navy Federal Credit Union",
+  "engTitle": "Navy Federal Credit Union",
+  "url": "https://www.navyfederal.org",
+  "color": "#0f4471",
+  "prefixes": [
+    400022,
+    403216,
+    406041,
+    406095,
+    406315
+  ]
+}
