@@ -4,13 +4,13 @@ var data = require('./banks/index');
 var banks = [];
 var prefixes = {};
 
-data.forEach((item) => {
+data.forEach(function (item) {
   banks = banks.concat(item);
 });
 
-banks.forEach((bank) => {
-  bank.code = `${bank.country}-${bank.name}`;
-  bank.prefixes.forEach((prefix) => {
+banks.forEach(function (bank) {
+  bank.code = bank.country + '-' + bank.name;
+  bank.prefixes.forEach(function (prefix) {
     prefixes[prefix] = bank;
   });
 });
