@@ -1,0 +1,12 @@
+{
+  "name": "pasargad",
+  "country": "ir",
+  "localTitle": "بانک پاسارگاد",
+  "engTitle": "Pasargad Bank",
+  "url": "http://bpi.ir/",
+  "color": "#ffc41e",
+  "prefixes": [
+    639347,
+    502229
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sina",
+  "country": "ir",
+  "localTitle": "بانک سینا",
+  "engTitle": "Sina Bank",
+  "url": "http://www.sinabank.ir/",
+  "color": "#07519a",
+  "prefixes": [
+    639346
+  ]
+}

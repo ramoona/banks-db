@@ -1,0 +1,11 @@
+{
+  "name": "central",
+  "country": "ir",
+  "localTitle": "بانک مرکزی جمهوری اسلامی ایران",
+  "engTitle": "Central Bank of the Islamic Republic of Iran",
+  "url": "http://www.cbi.ir/",
+  "color": "#22304d",
+  "prefixes": [
+    636795
+  ]
+}
