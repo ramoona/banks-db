@@ -1,3 +1,50 @@
+## v0.10.8
+#### Added
+
+* Banks
+
+    | Bank      | Country      |
+    | --------- |:------------:|
+    | Bankwest | AU |
+    | SunTrust | US |
+    | Navy Federal Credit Union | US |
+    | Avangard | RU |
+    | Maskan Bank | IR |
+    | Mellat Bank | IR |
+    | Pasargad Bank | IR |
+    | Tejart Bank | IR |
+    | Melli Bank | IR |
+    | Sepah Bank | IR |
+    | Export Development Bank | IR |
+    | Bank of Industry and Mine | IR |
+    | Keshavarzi Bank | IR |
+    | Post Bank | IR |
+    | Tose'e Ta'avon Bank | IR |
+    | Eghtesad Novin Bank | IR |
+    | Parsian Bank | IR |
+    | Karafarin Bank | IR |
+    | Saman Bank | IRIR |
+    | Sina Bank | IR |
+    | Sarmayeh | IR |
+    | Shahr Bank | IR |
+    | Day Bank | IR |
+    | Saderat Bank | IR |
+    | Refah Bank | IR |
+    | Ansar Bank | IR |
+    | Iran Zamin Bank | IR |
+    | Central Bank of the Islamic Republic of Iran | IR |
+    | Hekmat Iranian Bank | IR |
+    | Tourism Bank | IR |
+    | Qarzol-Hasaneh Mehr Iran Bank | IR |
+    | Ghavamin Bank | IR |
+
+* Prefixes
+
+    | Bank      | Country      |
+    | --------- |:------------:|
+    | Promsvyazbank | RU |
+    | Sberbank | RU |
+
 ## v0.10.7
 #### Added
 
