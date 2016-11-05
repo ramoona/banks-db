@@ -1,3 +1,7 @@
+## v0.10.9
+
+[Hotfix:](https://github.com/ramoona/banks-db/commit/78ae6a425b5e60c981ea252d884ea3b124d48f93) remove arrow functions from client JS.
+
 ## v0.10.8
 #### Added
 
