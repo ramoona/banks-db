@@ -1,0 +1,11 @@
+{
+  "name": "monzo",
+  "country": "gb",
+  "localTitle": "Monzo",
+  "engTitle": "Monzo",
+  "url": "https://monzo.com",
+  "color": "#f93845",
+  "prefixes": [
+    535420
+  ]
+}
