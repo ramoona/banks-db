@@ -1,0 +1,15 @@
+{
+    "name": "hsbc",
+    "country": "gb",
+    "localTitle": "HSBC Bank plc",
+    "engTitle": "HSBC Bank plc",
+    "url": "https://www.hsbc.co.uk/",
+    "color": "#EE3226",
+    "prefixes": [
+        465942,
+        465943,
+        465944,
+        486483,
+        543460
+    ]
+}
