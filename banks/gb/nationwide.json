@@ -1,0 +1,14 @@
+{
+  "name": "nationwide",
+  "country": "gb",
+  "localTitle": "Nationwide",
+  "engTitle": "Nationwide",
+  "url": "http://www.nationwide.co.uk",
+  "color": "#002878",
+  "prefixes": [
+    454313,
+    465935,
+    475141,
+    489396
+  ]
+}
