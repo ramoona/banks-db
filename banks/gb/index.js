@@ -1,14 +1,14 @@
 module.exports = [
   require('./barclays'),
   require('./curve'),
+  require('./halifax'),
   require('./hsbc'),
-  require('./halifax.json'),
-  require('./lloydstsb.json'),
+  require('./lloydstsb'),
   require('./metrobank'),
   require('./monzo'),
   require('./nationwide'),
   require('./natwest'),
   require('./revolut'),
-  require('./santander.json'),
+  require('./santander'),
   require('./soldo')
 ];
