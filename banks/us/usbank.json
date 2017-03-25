@@ -1,0 +1,19 @@
+{
+  "name": "usbank",
+  "country": "us",
+  "localTitle": "US Bank",
+  "engTitle": "US Bank",
+  "url": "https://www.usbank.com/index.html",
+  "color": "#0c2074",
+  "prefixes": [
+    404645,
+    414780,
+    420719,
+    424604,
+    436618,
+    446053,
+    470758,
+    476153,
+    521679
+  ]
+}
