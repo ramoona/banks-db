@@ -1,15 +1,10 @@
 const fs = require('fs');
 const path = require('path');
-const chalk = require('chalk');
+const helper = require('./helper');
 const JSV = require('JSV').JSV;
 const jsonfile = require('jsonfile');
 
 const linter = JSV.createEnvironment();
-
-function showError(filePath, error) {
-  error = error || '';
-  console.error(chalk.red(`FAIL ${filePath}${error}`));
-}
 
 fs.readdir(path.join(__dirname, 'banks'), (err, files) => {
   if (err) throw err;
@@ -35,17 +30,17 @@ fs.readdir(path.join(__dirname, 'banks'), (err, files) => {
           name = name.replace(/\.json$/, '');
 
           if (report.errors.length > 0) {
-            showError(bankPath);
+            helper.error(bankPath);
             report.errors.forEach(i => console.error(i));
             process.exit(1);
           } else if (bank.country !== country) {
-            showError(bankPath, ':\ncountry folder doesn\'t match with bank country');
+            helper.error(`${bankPath} :\ncountry folder doesn't match with bank country`);
             process.exit(1);
           } else if (bank.name !== name) {
-            showError(bankPath, ':\nJSON filename doesn\'t match with bank name');
+            helper.error(`${bankPath}:\nJSON filename doesn't match with bank name`);
             process.exit(1);
           } else if (!/^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/.test(bank.color)) {
-            showError(bankPath, ': \ninvalid color format (use HEX)');
+            helper.error(`${bankPath}: \ninvalid color format (use HEX)`);
             process.exit(1);
           } else {
             bank.prefixes.sort();
@@ -57,7 +52,7 @@ fs.readdir(path.join(__dirname, 'banks'), (err, files) => {
               if (err3) {
                 throw err3;
               } else {
-                console.log(chalk.green('OK ') + chalk.white(`banks/${country}/${name}`));
+                helper.success(`banks/${country}/${name}`);
               }
             });
           }
@@ -71,7 +66,7 @@ fs.readdir(path.join(__dirname, 'banks'), (err4, items) => {
   if (err4) throw err4;
 
   if (/\.json/.test(items.join())) {
-    showError('banks/', ': JSON must not be placed straght in banks folder');
+    helper.error('JSON must not be placed straight in banks folder');
     process.exit(1);
   }
 });
