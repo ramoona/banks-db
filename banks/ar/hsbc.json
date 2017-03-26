@@ -1,0 +1,12 @@
+{
+  "name": "hsbc",
+  "country": "ar",
+  "localTitle": "HSBC",
+  "engTitle": "HSBC",
+  "url": "https://www.hsbc.com.ar/es/",
+  "color": "#dd1f26",
+  "prefixes": [
+    450910,
+    525489
+  ]
+}

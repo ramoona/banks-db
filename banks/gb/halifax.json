@@ -1,0 +1,15 @@
+{
+  "name": "halifax",
+  "country": "gb",
+  "localTitle": "Halifax",
+  "engTitle": "Halifax",
+  "url": "http://www.halifax.co.uk/",
+  "color": "#0040bb",
+  "prefixes": [
+    446238,
+    446291,
+    528683,
+    543429,
+    552073
+  ]
+}

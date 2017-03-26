@@ -1,0 +1,13 @@
+{
+  "name": "santander",
+  "country": "gb",
+  "localTitle": "Santander UK plc",
+  "engTitle": "Santander UK plc",
+  "url": "http://www.santander.co.uk/",
+  "color": "#ec0000",
+  "prefixes": [
+    454742,
+    475714,
+    528689
+  ]
+}

@@ -3,5 +3,6 @@ module.exports = [
   require('./caisseepargne'),
   require('./creditmutuel'),
   require('./ingdirect'),
-  require('./lcl')
+  require('./lcl'),
+  require('./societe-generale')
 ];

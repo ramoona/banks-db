@@ -1,0 +1,12 @@
+{
+  "name": "societe-generale",
+  "country": "fr",
+  "localTitle": "Société Générale",
+  "engTitle": "Societe Generale",
+  "url": "http://societegenerale.fr/",
+  "color": "#e5022f",
+  "prefixes": [
+    49735,
+    497355
+  ]
+}
