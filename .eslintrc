@@ -10,6 +10,7 @@
     "func-names": 0,
     "no-restricted-syntax": 0,
     "prefer-arrow-callback": 0,
-    "prefer-template": 0
+    "prefer-template": 0,
+    "global-require": 0
   }
 }
