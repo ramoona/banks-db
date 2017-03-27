@@ -5,13 +5,8 @@ const JSV = require('JSV').JSV;
 const jsonfile = require('jsonfile-promised');
 
 const linter = JSV.createEnvironment();
-let schema;
 
-jsonfile.readFile(path.join(__dirname, 'schema.json')).then((schemaFile) => {
-  schema = schemaFile;
-}).catch(helper.error);
-
-const lintBank = (bank, bankPath, bankName, country) =>
+const lintBank = (bank, bankPath, bankName, country, schema) =>
    new Promise((resolve, reject) => {
      const report = linter.validate(bank, schema);
      bankName = bankName.replace(/\.json$/, '');
@@ -36,27 +31,29 @@ const lintBank = (bank, bankPath, bankName, country) =>
    })
 ;
 
-const lint = files =>
+const lint = (files, schema) =>
    new Promise((resolve, reject) => {
      const countries = files.filter(file =>
       fs.lstatSync(path.join(__dirname, `banks/${file}`)).isDirectory());
 
-     countries.reduce((promise, country) => {
+     countries.reduce((countryPromise, country) => {
        const banks = fs.readdirSync(
-         path.join(__dirname, `banks/${country}`)).filter(file => /\.json$/.test(file)
-       );
-       return promise.then(() =>
-         banks.reduce((promise, bankName) => {
-           const bankPath = `banks/${country}/${bankName}`;
-           const fullPath = path.join(__dirname, bankPath);
-           return promise.then(() =>
-             jsonfile.readFile(path.join(__dirname, bankPath))
-               .then(bank => lintBank(bank, bankPath, bankName, country))
-               .then(bank => jsonfile.writeFile(fullPath, bank, { spaces: 2 }))
-               .then(() => { helper.success(`banks/${country}/${bankName}`); })
-               .catch(reject)
-           );
-         }, Promise.resolve()));
+        path.join(__dirname, `banks/${country}`)).filter(file => /\.json$/.test(file)
+      );
+       return countryPromise.then(() =>
+        banks.reduce((bankPromise, bankName) => {
+          const bankPath = `banks/${country}/${bankName}`;
+          const fullPath = path.join(__dirname, bankPath);
+          return bankPromise.then(() =>
+            jsonfile.readFile(path.join(__dirname, bankPath))
+              .then(bank => lintBank(bank, bankPath, bankName, country, schema))
+              .then(bank => jsonfile.writeFile(fullPath, bank, { spaces: 2 }))
+              .then(() => {
+                helper.success(`banks/${country}/${bankName}`);
+              })
+              .catch(reject)
+          );
+        }, Promise.resolve()));
      }, Promise.resolve());
 
      if (/\.json/.test(files.join())) {
@@ -65,7 +62,10 @@ const lint = files =>
    })
 ;
 
-fs.readdir(path.join(__dirname, 'banks')).then(lint).catch((err) => {
-  helper.error(err);
-  process.exit(1);
-});
+jsonfile.readFile(path.join(__dirname, 'schema.json')).then((schema) => {
+  fs.readdir(path.join(__dirname, 'banks')).then(files => lint(files, schema)).catch((err) => {
+    helper.error(err);
+    process.exit(1);
+  });
+}).catch(helper.error);
+
