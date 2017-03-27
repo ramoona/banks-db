@@ -28,4 +28,4 @@ const createRequires = (files) => {
   generateRequiresFile('index.js', indexFilesRequires);
 };
 
-fs.readdir(path.join(__dirname, 'banks')).then(createRequires).catch((err) => { helper.error(err); });
+fs.readdir(path.join(__dirname, 'banks')).then(createRequires).catch(helper.error);

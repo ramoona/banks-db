@@ -18,7 +18,7 @@
     "ava": "^0.18.2",
     "chalk": "^1.1.1",
     "fs-promise": "^2.0.2",
-    "jsonfile": "2.4.0"
+    "jsonfile-promised": "0.0.1"
   },
   "devDependencies": {
     "eslint": "^3.9.1",
@@ -30,7 +30,7 @@
   "scripts": {
     "test": "ava && node lint.js && eslint *.js",
     "build": "node build-indexes.js",
-    "prepublish": "npm run build && npm test"
+    "prepublish": "yarn build && yarn test"
   },
   "license": "CC-BY-4.0"
 }

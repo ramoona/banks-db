@@ -6,5 +6,8 @@ module.exports = {
   },
   success: (text) => {
     console.log(`${chalk.green('✓ ')}${chalk.white(text)}`);
+  },
+  warn: (text) => {
+    console.error(chalk.yellow(`⚠ ${text}`));
   }
 };

@@ -2042,7 +2042,13 @@ json5@^0.5.0:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/json5/-/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
 
-jsonfile@2.4.0, jsonfile@^2.1.0:
+jsonfile-promised@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/jsonfile-promised/-/jsonfile-promised-0.0.1.tgz#5c8bafc055c3cc93a7413eb8d62634eaa4de54b8"
+  dependencies:
+    jsonfile "^2.3.1"
+
+jsonfile@^2.1.0, jsonfile@^2.3.1:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-2.4.0.tgz#3736a2b428b87bbda0cc83b53fa3d633a35c2ae8"
   optionalDependencies:
