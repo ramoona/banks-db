@@ -41,22 +41,23 @@ const lint = files =>
      const countries = files.filter(file =>
       fs.lstatSync(path.join(__dirname, `banks/${file}`)).isDirectory());
 
-     countries.forEach((country) => {
+     countries.reduce((promise, country) => {
        const banks = fs.readdirSync(
-        path.join(__dirname, `banks/${country}`)).filter(file => /\.json$/.test(file)
-      );
-
-       banks.forEach((bankName) => {
-         const bankPath = `banks/${country}/${bankName}`;
-         const fullPath = path.join(__dirname, bankPath);
-
-         jsonfile.readFile(path.join(__dirname, bankPath))
-          .then(bank => lintBank(bank, bankPath, bankName, country))
-          .then(bank => jsonfile.writeFile(fullPath, bank, { spaces: 2 }))
-          .then(() => { helper.success(`banks/${country}/${bankName}`); })
-          .catch(reject);
-       });
-     });
+         path.join(__dirname, `banks/${country}`)).filter(file => /\.json$/.test(file)
+       );
+       return promise.then(() =>
+         banks.reduce((promise, bankName) => {
+           const bankPath = `banks/${country}/${bankName}`;
+           const fullPath = path.join(__dirname, bankPath);
+           return promise.then(() =>
+             jsonfile.readFile(path.join(__dirname, bankPath))
+               .then(bank => lintBank(bank, bankPath, bankName, country))
+               .then(bank => jsonfile.writeFile(fullPath, bank, { spaces: 2 }))
+               .then(() => { helper.success(`banks/${country}/${bankName}`); })
+               .catch(reject)
+           );
+         }, Promise.resolve()));
+     }, Promise.resolve());
 
      if (/\.json/.test(files.join())) {
        reject('JSON must not be placed straight in banks folder');
