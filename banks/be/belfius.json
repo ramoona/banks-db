@@ -1,0 +1,11 @@
+{
+  "name": "belfius",
+  "country": "be",
+  "localTitle": "Belfius Bank",
+  "engTitle": "Belfius Bank",
+  "url": "https://www.belfius.be",
+  "color": "#325c6c",
+  "prefixes": [
+    670305
+  ]
+}

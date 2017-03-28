@@ -1,0 +1,12 @@
+{
+  "name": "csob",
+  "country": "cz",
+  "localTitle": "ČSOB",
+  "engTitle": "ČSOB",
+  "url": "https://www.csob.cz/",
+  "color": "#0099cc",
+  "prefixes": [
+    440753,
+    543463
+  ]
+}

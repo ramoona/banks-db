@@ -1,0 +1,12 @@
+{
+  "name": "n26",
+  "country": "de",
+  "localTitle": "N26",
+  "engTitle": "N26",
+  "url": "https://n26.com/",
+  "color": "#383838",
+  "prefixes": [
+    535584,
+    535585
+  ]
+}
