@@ -1,0 +1,11 @@
+{
+  "name": "barclays",
+  "country": "uk",
+  "localTitle": "Barclays",
+  "engTitle": "Barclays",
+  "url": "http://www.barclays.co.uk/",
+  "color": "#00aeef",
+  "prefixes": [
+    492910
+  ]
+}

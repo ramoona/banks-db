@@ -1,0 +1,12 @@
+{
+  "name": "rsb",
+  "country": "uk",
+  "localTitle": "Royal Bank of Scotland",
+  "engTitle": "Royal Bank of Scotland",
+  "url": "http://personal.rbs.co.uk/",
+  "color": "#0a2f64",
+  "prefixes": [
+    476367,
+    476368
+  ]
+}

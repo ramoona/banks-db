@@ -1,3 +1,5 @@
 module.exports = [
-  require('./payoneer')
+  require('./payoneer'),
+  require('./rsb'),
+  require('./barclays')
 ];
