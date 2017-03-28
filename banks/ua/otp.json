@@ -1,0 +1,20 @@
+{
+  "name": "otp",
+  "country": "ua",
+  "localTitle": "OTP Bank",
+  "engTitle": "OTP Bank",
+  "url": "https://www.otpbank.com.ua/",
+  "color": "#a3d044",
+  "prefixes": [
+    411749,
+    416955,
+    533194,
+    436323,
+    528534,
+    406788,
+    406760,
+    546886,
+    547266,
+    471362
+  ]
+}

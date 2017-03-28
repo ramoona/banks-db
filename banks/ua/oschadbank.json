@@ -1,0 +1,14 @@
+{
+  "name": "oschadbank",
+  "country": "ua",
+  "localTitle": "Ощадбанк",
+  "engTitle": "Oschadbank",
+  "url": "http://www.oschadbank.ua/",
+  "color": "#06503c",
+  "prefixes": [
+    515662,
+    557744,
+    545265,
+    555952
+  ]
+}

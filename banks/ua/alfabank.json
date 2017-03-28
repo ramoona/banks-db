@@ -1,0 +1,17 @@
+{
+  "name": "alfabank",
+  "country": "ua",
+  "localTitle": "Альфа-Банк",
+  "engTitle": "Alfa-Bank",
+  "url": "https://alfabank.ua/",
+  "color": "#ed1c2a",
+  "prefixes": [
+    422605,
+    410247,
+    423719,
+    544904,
+    547994,
+    543259,
+    536364
+  ]
+}
