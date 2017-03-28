@@ -1,0 +1,14 @@
+{
+  "name": "deutsche-bank-polska",
+  "country": "pl",
+  "localTitle": "Deutsche Bank Polska",
+  "engTitle": "Deutsche Bank Polska",
+  "url": "https://www.deutschebank.pl/",
+  "color": "#00abdf",
+  "prefixes": [
+    401801,
+    474168,
+    474170,
+    552044
+  ]
+}

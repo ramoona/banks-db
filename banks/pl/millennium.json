@@ -1,0 +1,14 @@
+{
+  "name": "millennium",
+  "country": "pl",
+  "localTitle": "Bank Millennium",
+  "engTitle": "Bank Millennium",
+  "url": "https://www.bankmillennium.pl/",
+  "color": "#c82059",
+  "prefixes": [
+    512748,
+    512792,
+    534714,
+    542757
+  ]
+}

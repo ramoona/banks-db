@@ -1,0 +1,14 @@
+{
+  "name": "ing-bsk",
+  "country": "pl",
+  "localTitle": "ING Bank Slaski",
+  "engTitle": "ING Bank Slaski",
+  "url": "https://www.ingbank.pl/",
+  "color": "#ff6200",
+  "prefixes": [
+    416040,
+    448379,
+    472817,
+    524382
+  ]
+}
