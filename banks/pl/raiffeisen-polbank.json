@@ -1,0 +1,13 @@
+{
+  "name": "raiffeisen-polbank",
+  "country": "pl",
+  "localTitle": "Raiffeisen Polbank",
+  "engTitle": "Raiffeisen Polbank",
+  "url": "http://raiffeisenpolbank.com/",
+  "color": "#fff533",
+  "prefixes": [
+    402637,
+    429046,
+    543310
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "fio-banka",
+  "country": "cz",
+  "localTitle": "Fio banka",
+  "engTitle": "Fio banka",
+  "url": "https://www.fio.cz/",
+  "color": "#00458a",
+  "prefixes": [
+    510658
+  ]
+}
