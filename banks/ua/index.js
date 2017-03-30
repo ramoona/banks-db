@@ -9,5 +9,6 @@ module.exports = [
   require('./ukreximbank'),
   require('./ukrgasbank'),
   require('./ukrsibbank'),
+  require('./ukrsotsbank'),
   require('./unicreditbank')
 ];
