@@ -1,0 +1,12 @@
+{
+  "name": "tsb",
+  "country": "gb",
+  "localTitle": "TSB",
+  "engTitle": "TSB",
+  "url": "http://tsb.co.uk/",
+  "color": "#0098cf",
+  "prefixes": [
+    476367,
+    476368
+  ]
+}

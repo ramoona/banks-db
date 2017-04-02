@@ -1,0 +1,11 @@
+{
+  "name": "barclaycard",
+  "country": "gb",
+  "localTitle": "Barclaycard",
+  "engTitle": "Barclaycard",
+  "url": "http://www.barclaycard.co.uk/",
+  "color": "#018fd0",
+  "prefixes": [
+    492910
+  ]
+}

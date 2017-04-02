@@ -1,4 +1,5 @@
 module.exports = [
+  require('./barclaycard'),
   require('./barclays'),
   require('./curve'),
   require('./halifax'),
@@ -10,5 +11,6 @@ module.exports = [
   require('./natwest'),
   require('./revolut'),
   require('./santander'),
-  require('./soldo')
+  require('./soldo'),
+  require('./tsb')
 ];
