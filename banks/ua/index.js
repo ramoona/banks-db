@@ -3,6 +3,8 @@ module.exports = [
   require('./diamant'),
   require('./otp'),
   require('./oschadbank'),
+  require('./pravex'),
+  require('./procredit'),
   require('./privatbank'),
   require('./pumb'),
   require('./raiffeisen-aval'),
