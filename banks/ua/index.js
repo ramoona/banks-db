@@ -1,6 +1,7 @@
 module.exports = [
   require('./alfabank'),
   require('./diamant'),
+  require('./kredobank'),
   require('./otp'),
   require('./oschadbank'),
   require('./pravex'),

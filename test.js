@@ -6,7 +6,7 @@ test('finds bank by first 6 symbols', (t) => {
   t.deepEqual(banksDB('5211784563802833').name, 'alfabank');
 });
 
-test('returen card type', (t) => {
+test('returns card type', (t) => {
   t.deepEqual(banksDB('5211784563802833').type, 'mastercard');
 });
 
