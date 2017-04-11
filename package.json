@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "JSV": "^4.0.2",
-    "ava": "^0.18.2",
+    "ava": "^0.19.1",
     "chalk": "^1.1.1",
     "fs-promise": "^2.0.2",
     "jsonfile-promised": "0.0.1"
