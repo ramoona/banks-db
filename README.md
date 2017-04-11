@@ -2,9 +2,8 @@
 [![Build Status](https://img.shields.io/travis/ramoona/banks-db/master.svg?style=flat-square)](https://travis-ci.org/ramoona/banks-db)
 [![Latest Stable Version](https://img.shields.io/npm/v/banks-db.svg?style=flat-square)](https://www.npmjs.com/package/banks-db)
 [![NPM Downloads](https://img.shields.io/npm/dm/banks-db.svg?style=flat-square)](https://www.npmjs.com/package/banks-db)
-[![Known Vulnerabilities](https://snyk.io/test/github/ramoona/banks-db/badge.svg?style=flat-square)](https://snyk.io/test/github/ramoona/banks-db)
 
-Returns bank name and brand color by bankcard prefix (BIN).
+Returns bank's name and brand color by bankcard prefix (BIN).
 
 It is useful on billing pages to use bank’s brand color when user starts to type card number.
 
@@ -12,8 +11,8 @@ It is useful on billing pages to use bank’s brand color when user starts to ty
      alt="banks-db usage example"
      width="500px" height="500px" />
 
-It is a community driven database, so it can potentially contain mistakes. It's not a problem for UX enhancement,
-but you must not use it in your billing logic.
+It's a community driven database, so it can potentially contains mistakes. It's not a problem for UX enhancement,
+but you must not use Banks DB in your billing logic.
 
 ## Demo
 Try your card prefix in our [demo](https://ramoona.github.io/banks-db-demo/). Note that only first 6 digits of card number are required.
@@ -92,7 +91,7 @@ See also best practices for billing forms:
 
 ## API
 
-Library exports `banksDB` function. It accepts bankcard number and return
+Library exports `banksDB` function. It accepts bankcard number and returns
 bank object.
 
 ```js
@@ -102,7 +101,7 @@ console.log(bank.code) //=> 'ru-citibank'
 console.log(bank.type) //=> 'mastercard'
 ```
 
-If database doesn't contain this bank prefix, bank object will have only
+If database doesn't contain some bank prefix, bank object will have only
 `type` field.
 
 ```js
@@ -111,7 +110,7 @@ console.log(bank.code) //=> undefined
 console.log(bank.type) //=> 'visa'
 ```
 
-You can get bank database by `banksDB.data`:
+You can also get banks database by `banksDB.data`:
 
 ```js
 for ( let bank of banksDB.data ) {
@@ -123,7 +122,7 @@ for ( let bank of banksDB.data ) {
 
 * `type`: bankcard type. For example, `'visa'` or `'mastercard'`.
   Banks DB will return it even if bank is unknown.
-* `code`: unique bank code, contain country and name. For example, you can use it to generate CSS selectors for every bank.
+* `code`: unique code, contains country and name. For example, you can use it to generate CSS selectors for each bank.
 * `color`: bank's brand color in HEX-format.
 * `localTitle`: bank's title in local language.
 * `engTitle`: international bank's title.
