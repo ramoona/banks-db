@@ -14,5 +14,6 @@ module.exports = [
   require('./payoneer'),
   require('./suntrust'),
   require('./tdbank'),
+  require('./usbank'),
   require('./wellsfargo')
 ];
