@@ -12,6 +12,7 @@ module.exports = [
   require('./rocketbank'),
   require('./rosbank'),
   require('./rosevrobank'),
+  require('./rsb'),
   require('./sberbank'),
   require('./siab'),
   require('./sovcombank'),

@@ -1,0 +1,13 @@
+{
+  "name": "rsb",
+  "country": "ru",
+  "localTitle": "Банк Русский Стандарт",
+  "engTitle": "Russian Standard Bank",
+  "url": "https://www.rsb.ru/",
+  "color": "#930d2d",
+  "prefixes": [
+    510047,
+    513691,
+    542048
+  ]
+}
