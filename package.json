@@ -18,7 +18,8 @@
     "ava": "^0.19.1",
     "chalk": "^1.1.1",
     "fs-promise": "^2.0.2",
-    "jsonfile-promised": "0.0.1"
+    "jsonfile-promised": "0.0.1",
+    "snyk": "^1.30.1"
   },
   "devDependencies": {
     "eslint": "^3.9.1",
@@ -30,7 +31,9 @@
   "scripts": {
     "test": "ava && node lint.js && eslint *.js",
     "build": "node build-indexes.js",
-    "prepublish": "yarn build && yarn test"
+    "prepublish": "npm run snyk-protect && yarn build && yarn test",
+    "snyk-protect": "snyk protect"
   },
-  "license": "CC-BY-4.0"
+  "license": "CC-BY-4.0",
+  "snyk": true
 }
