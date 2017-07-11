@@ -15,14 +15,14 @@
   ],
   "devDependencies": {
     "JSV": "^4.0.2",
-    "ava": "^0.19.1",
-    "chalk": "^1.1.1",
-    "eslint": "^3.9.1",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.5.0",
-    "fs-promise": "^2.0.2",
+    "ava": "^0.20.0",
+    "chalk": "^2.0.1",
+    "eslint": "^4.2.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0",
+    "fs-promise": "^2.0.3",
     "jsonfile-promised": "0.0.1"
   },
   "scripts": {
