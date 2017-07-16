@@ -82,4 +82,8 @@ schema.json
 .travis.yml
 .editorconfig
 .eslintrc
+.npmignore
+yarn.lock
+build-indexes.js
+helper.js
 CONTRIBUTING.md
