@@ -1,6 +1,6 @@
 {
   "name": "banks-db",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "Bankcards BIN database",
   "author": "Linda Rian <lindarian12@gmail.com>",
   "repository": "ramoona/banks-db",
@@ -15,7 +15,7 @@
   ],
   "devDependencies": {
     "JSV": "^4.0.2",
-    "ava": "^0.20.0",
+    "ava": "^0.21.0",
     "chalk": "^2.0.1",
     "eslint": "^4.2.0",
     "eslint-config-airbnb": "^15.0.2",
