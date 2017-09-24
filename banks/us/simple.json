@@ -1,0 +1,11 @@
+{
+  "name": "simple",
+  "country": "us",
+  "localTitle": "Simple",
+  "engTitle": "Simple",
+  "url": "https://www.simple.com",
+  "color": "#007cd9",
+  "prefixes": [
+    481171
+  ]
+}

@@ -1,4 +1,5 @@
 module.exports = [
+  require('./ally'),
   require('./americanexpress'),
   require('./bankofamerica'),
   require('./barclays'),
@@ -12,6 +13,7 @@ module.exports = [
   require('./metabank'),
   require('./navyfederal'),
   require('./payoneer'),
+  require('./simple'),
   require('./suntrust'),
   require('./tdbank'),
   require('./usbank'),
