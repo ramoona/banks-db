@@ -38,7 +38,7 @@ We use `yarn` as a package manager. Feel free to use `npm` instead if you don't 
         123456,
       ]
     }
-    ```
+```
 6. Make sure that `yarn test` is still passing.
 7. Submit a pull request.
 
