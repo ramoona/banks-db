@@ -2,6 +2,7 @@ module.exports = [
   require('./barclaycard'),
   require('./barclays'),
   require('./curve'),
+  require('./epayments'),
   require('./halifax'),
   require('./hsbc'),
   require('./lloydstsb'),
