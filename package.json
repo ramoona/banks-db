@@ -1,6 +1,6 @@
 {
   "name": "banks-db",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "description": "Bankcards BIN database",
   "author": "Linda Rian <lindarian12@gmail.com>",
   "repository": "ramoona/banks-db",
@@ -14,21 +14,20 @@
     "db"
   ],
   "devDependencies": {
-    "JSV": "^4.0.2",
-    "ava": "^0.21.0",
-    "chalk": "^2.0.1",
-    "eslint": "^4.2.0",
-    "eslint-config-airbnb": "^15.0.2",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.1.0",
-    "fs-promise": "^2.0.3",
-    "jsonfile-promised": "0.0.1"
+    "JSV": "4.x.x",
+    "ava": "0.x.x",
+    "chalk": "2.x.x",
+    "eslint": "5.x.x",
+    "eslint-config-airbnb": "17.x.x",
+    "eslint-plugin-import": "2.x.x",
+    "eslint-plugin-jsx-a11y": "6.x.x",
+    "eslint-plugin-react": "7.x.x",
+    "fs-promise": "2.x.x",
+    "jsonfile-promised": "0.x.x"
   },
   "scripts": {
     "test": "ava && node lint.js && eslint *.js",
-    "build": "node build-indexes.js",
-    "prepublish": "yarn build && yarn test"
+    "build": "node build-indexes.js"
   },
   "license": "CC-BY-4.0"
 }

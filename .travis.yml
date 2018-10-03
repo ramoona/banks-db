@@ -1,6 +1,18 @@
 language: node_js
-cache: yarn
+sudo: false
+cache:
+  yarn: true
+  directories:
+  - node_modules
 node_js:
-  - stable
-  - "6"
-  - "4"
+- stable
+- '8'
+- '6'
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: lindarian12@gmail.com
+  api_key: $NPM_API_KEY
+  on:
+    tags: true
+    repo: ramoona/banks-db
