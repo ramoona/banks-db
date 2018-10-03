@@ -1,0 +1,11 @@
+{
+  "name": "epayments",
+  "country": "gb",
+  "localTitle": "ePayments",
+  "engTitle": "ePayments",
+  "url": "https://www.epayments.com/",
+  "color": "#000000",
+  "prefixes": [
+    528393
+  ]
+}
