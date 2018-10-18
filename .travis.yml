@@ -11,7 +11,7 @@ node_js:
 deploy:
   skip_cleanup: true
   provider: npm
-  email: lindarian12@gmail.com
+  email: $NPM_EMAIL
   api_key: $NPM_API_KEY
   on:
     tags: true
