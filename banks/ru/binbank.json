@@ -1,0 +1,11 @@
+{
+  "name": "binbank",
+  "country": "ru",
+  "localTitle": "Бинбанк",
+  "engTitle": "B&N Bank",
+  "url": "https://www.binbank.ru/",
+  "color": "#0e3480",
+  "prefixes": [
+    462703
+  ]
+}

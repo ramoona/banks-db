@@ -2,6 +2,7 @@ module.exports = [
   require('./akbarsbank'),
   require('./alfabank'),
   require('./avangard'),
+  require('./binbank'),
   require('./citibank'),
   require('./gazprombank'),
   require('./mdm'),
