@@ -1,4 +1,5 @@
 module.exports = [
   require('./absa'),
-  require('./capitec')
+  require('./capitec'),
+  require('./fnb')
 ];
