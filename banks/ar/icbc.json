@@ -1,0 +1,11 @@
+{
+  "name": "icbc",
+  "country": "ar",
+  "localTitle": "ICBC",
+  "engTitle": "ICBC",
+  "url": "https://www.icbc.com.ar/",
+  "color": "#ffffff",
+  "prefixes": [
+    451751
+  ]
+}

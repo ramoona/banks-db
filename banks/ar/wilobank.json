@@ -1,0 +1,12 @@
+{
+  "name": "wilobank",
+  "country": "ar",
+  "localTitle": "Wilobank",
+  "engTitle": "Wilobank",
+  "url": "https://wilobank.com/",
+  "color": "#008fab",
+  "prefixes": [
+    514285,
+    518080
+  ]
+}
