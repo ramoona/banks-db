@@ -26,5 +26,6 @@ module.exports = [
   require("./vpb"),
   require("./vtb24"),
   require("./yandex"),
-  require("./openbank")
+  require("./openbank"),
+  require("./homecredit")
 ];
