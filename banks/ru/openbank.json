@@ -1,0 +1,11 @@
+{
+  "name": "open",
+  "country": "ru",
+  "localTitle": "Банк Открытие",
+  "engTitle": "Bank Otkritie",
+  "url": "https://open.ru",
+  "color": "#00b4e3",
+  "prefixes": [
+    532301
+  ]
+}
