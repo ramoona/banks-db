@@ -1,0 +1,11 @@
+{
+  "name": "homecredit",
+  "country": "ru",
+  "localTitle": "Хоум Кредит Банк",
+  "engTitle": "Home Credit Bank",
+  "url": "https://homecredit.ru",
+  "color": "#c7102e",
+  "prefixes": [
+    446915
+  ]
+}
