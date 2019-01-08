@@ -1,31 +1,33 @@
-const fs = require('fs-promise');
-const path = require('path');
-const helper = require('./helper');
+const { writeFile, readdir, lstatSync } = require('fs-promise');
+const { join } = require('path');
+const { logError, logSuccess } = require('./helper');
+
+const path = name => join(__dirname, name ? `banks/${name}` : 'banks');
 
 const generateRequiresFile = (filePath, requires) => {
   const content = `module.exports = [${requires}\n];\n`;
 
-  fs.writeFile(path.join(__dirname, `banks/${filePath}`), content).then(() => {
+  writeFile(path(filePath), content).then(() => {
     const dirPath = new RegExp(`${__dirname}/`);
-    helper.success(filePath.replace(dirPath, ''));
-  }).catch((err) => { helper.error(`Can't write ${filePath} \n${err}`); });
+    logSuccess(filePath.replace(dirPath, ''));
+  }).catch((err) => { logError(`Can't write ${filePath} \n${err}`); });
 };
 
 const createRequires = (files) => {
-  const countries = files.filter(file => fs.lstatSync(path.join(__dirname, `banks/${file}`)).isDirectory());
+  const countries = files.filter(file => lstatSync(path(file)).isDirectory());
   const indexFilesRequires = countries.map(country => `\n  require('./${country}/index')`);
 
   countries.forEach((country) => {
-    fs.readdir(path.join(__dirname, `banks/${country}`))
+    readdir(path(country))
       .then((items) => {
         const banksRequires = items
           .filter(file => /\.json$/.test(file))
           .map(bank => `\n  require('./${bank.replace(/\.json$/, '')}')`);
         generateRequiresFile(`${country}/index.js`, banksRequires);
-      }).catch((err) => { helper.error(`Can't read ${country} directory \n${err}`); });
+      }).catch((err) => { logError(`Can't read ${country} directory \n${err}`); });
   });
 
   generateRequiresFile('index.js', indexFilesRequires);
 };
 
-fs.readdir(path.join(__dirname, 'banks')).then(createRequires).catch(helper.error);
+readdir(path()).then(createRequires).catch(logError);

@@ -1,13 +1,13 @@
 const chalk = require('chalk');
 
 module.exports = {
-  error: (text) => {
+  logError: (text) => {
     console.error(chalk.red(`✘ ${text}`));
   },
-  success: (text) => {
+  logSuccess: (text) => {
     console.log(`${chalk.green('✓ ')}${chalk.white(text)}`);
   },
-  warn: (text) => {
+  logWarning: (text) => {
     console.error(chalk.yellow(`⚠ ${text}`));
   }
 };

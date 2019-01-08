@@ -2,7 +2,7 @@ const fs = require('fs-promise');
 const path = require('path');
 const { JSV } = require('JSV');
 const jsonfile = require('jsonfile-promised');
-const helper = require('./helper');
+const { logError, logWarning } = require('./helper');
 
 const linter = JSV.createEnvironment();
 
@@ -23,7 +23,7 @@ const lintBank = (bank, bankPath, bankName, country, schema) => new Promise((res
     bank.prefixes.sort();
     if (/[A-F]\w*/.test(bank.color)) {
       bank.color = bank.color.toLowerCase();
-      helper.warn(`${bankPath}: bank color was changed to lowercase`);
+      logWarning(`${bankPath}: bank color was changed to lowercase`);
     }
     resolve(bank);
   }
@@ -31,7 +31,6 @@ const lintBank = (bank, bankPath, bankName, country, schema) => new Promise((res
 
 const lint = (files, schema) => new Promise((resolve, reject) => {
   const countries = files.filter(file => fs.lstatSync(path.join(__dirname, `banks/${file}`)).isDirectory());
-
   countries.reduce((countryPromise, country) => {
     const banks = fs.readdirSync(
       path.join(__dirname, `banks/${country}`)
@@ -44,7 +43,7 @@ const lint = (files, schema) => new Promise((resolve, reject) => {
         .then(bank => lintBank(bank, bankPath, bankName, country, schema))
         .then(bank => jsonfile.writeFile(fullPath, bank, { spaces: 2 }))
         .then(() => {
-          helper.success(`banks/${country}/${bankName}`);
+          // logSuccess(`banks/${country}/${bankName}`);
         })
         .catch(reject));
     }, Promise.resolve()));
@@ -57,7 +56,7 @@ const lint = (files, schema) => new Promise((resolve, reject) => {
 
 jsonfile.readFile(path.join(__dirname, 'schema.json')).then((schema) => {
   fs.readdir(path.join(__dirname, 'banks')).then(files => lint(files, schema)).catch((err) => {
-    helper.error(err);
+    logError(err);
     process.exit(1);
   });
-}).catch(helper.error);
+}).catch(logError);

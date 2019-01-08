@@ -1,6 +1,6 @@
 {
   "name": "banks-db",
-  "version": "0.14.0",
+  "version": "0.15.0",
   "description": "Bankcards BIN database",
   "author": "Linda Rian <lindarian12@gmail.com>",
   "repository": "ramoona/banks-db",
@@ -22,8 +22,8 @@
     "eslint-plugin-jsx-a11y": "6.x.x",
     "eslint-plugin-react": "7.x.x",
     "fs-promise": "2.x.x",
-    "jsonfile-promised": "0.x.x",
-    "jest": "23.x.x"
+    "jest": "23.x.x",
+    "jsonfile-promised": "0.x.x"
   },
   "scripts": {
     "test": "jest && node lint.js && eslint *.js",

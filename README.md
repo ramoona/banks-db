@@ -91,6 +91,9 @@ See also best practices for billing forms:
 
 ## API
 
+There are two options to use BanksDB depends of whether you need specific countries or not.
+
+#### If you need banks for all countries
 Library exports `banksDB` function. It accepts bankcard number and returns
 bank object.
 
@@ -116,6 +119,28 @@ You can also get banks database by `banksDB.data`:
 for ( let bank of banksDB.data ) {
     console.log(bank);
 }
+```
+
+#### If you need only banks for specific countries
+
+Instead of `banks-db` use `banks-db/core`:
+```js
+var banksDBCore = require('banks-db/core');
+```
+Then require desired countries from `banks-db/banks` by two letters code:
+```js
+var banksOfRussia = require('banks-db/banks/ru');
+var banksOfChina = require('banks-db/banks/cn');
+```
+All that left is to call `banksDBCore` with your countries data to initialize. `banksDBCore` is a function that accepts one argument with banks data for countries that you've specified, and returns an instance of BanksDB object with `findBank` method and `data` property.
+```js
+var BanksDB = banksDBCore([banksOfRussia, banksOfChina]);
+// var BanksDB = banksDBCore(banksOfRussia); no need for an array if there's only one country
+```
+That's it! Ready to use:
+```js
+var bank = BanksDB.findBank('5275 9400 0000 0000');
+var data = BanksDB.data;
 ```
 
 ### Bank Object
