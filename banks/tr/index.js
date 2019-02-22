@@ -8,6 +8,7 @@ module.exports = [
   require('./halkbank'),
   require('./hsbc'),
   require('./ingbank'),
+  require('./ininal'),
   require('./isbank'),
   require('./kuveytturk'),
   require('./sekerbank'),
