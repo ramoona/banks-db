@@ -13,6 +13,7 @@ module.exports = [
   require('./keshavarzi'),
   require('./kosar'),
   require('./maskan'),
+  require('./mehreghtesad'),
   require('./mellat'),
   require('./melli'),
   require('./middleeast'),
