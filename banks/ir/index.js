@@ -32,6 +32,7 @@ module.exports = [
   require('./shahr'),
   require('./sina'),
   require('./tejarat'),
+  require('./tosee'),
   require('./toseetaavon'),
   require('./tourism')
 ];
