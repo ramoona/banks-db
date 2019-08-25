@@ -11,6 +11,7 @@ module.exports = [
   require('./iranzamin'),
   require('./karafarin'),
   require('./keshavarzi'),
+  require('./kosar'),
   require('./maskan'),
   require('./mellat'),
   require('./melli'),
