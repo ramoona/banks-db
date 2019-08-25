@@ -1,5 +1,6 @@
 module.exports = [
   require('./ansar'),
+  require('./ayandeh'),
   require('./central'),
   require('./day'),
   require('./eghtesadnovin'),
