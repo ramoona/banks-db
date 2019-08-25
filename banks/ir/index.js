@@ -16,6 +16,7 @@ module.exports = [
   require('./mehreghtesad'),
   require('./mellat'),
   require('./melli'),
+  require('./melal'),
   require('./middleeast'),
   require('./parsian'),
   require('./pasargad'),
