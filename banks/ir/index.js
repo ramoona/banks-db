@@ -24,6 +24,7 @@ module.exports = [
   require('./post'),
   require('./qarzolqasanehmehriran'),
   require('./refah'),
+  require('./resalat'),
   require('./saderat'),
   require('./saman'),
   require('./sarmayeh'),
