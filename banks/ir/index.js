@@ -18,6 +18,7 @@ module.exports = [
   require('./melli'),
   require('./melal'),
   require('./middleeast'),
+  require('./noor'),
   require('./parsian'),
   require('./pasargad'),
   require('./post'),
