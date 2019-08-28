@@ -1,0 +1,13 @@
+{
+  "name": "bunq",
+  "country": "nl",
+  "localTitle": "bunq",
+  "engTitle": "bunq",
+  "url": "https://bunq.com/",
+  "color": "#ffffff",
+  "prefixes": [
+    522319,
+    537465,
+    671160
+  ]
+}
