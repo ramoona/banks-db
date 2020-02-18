@@ -1,0 +1,11 @@
+{
+  "name": "middleeast",
+  "country": "ir",
+  "localTitle": "بانک خاورمیانه",
+  "engTitle": "Middle East Bank",
+  "url": "https://www.middleeastbank.ir/",
+  "color": "#f39200",
+  "prefixes": [
+    505809
+  ]
+}
