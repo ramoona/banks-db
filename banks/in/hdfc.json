@@ -1,0 +1,14 @@
+{
+  "name": "hdfc",
+  "country": "in",
+  "localTitle": "HDFC",
+  "engTitle": "HDFC",
+  "url": "https://www.hdfcbank.com/",
+  "color": "#004c8f",
+  "prefixes": [
+    416021,
+    524254,
+    541919,
+    552260
+  ]
+}

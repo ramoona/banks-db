@@ -1,0 +1,13 @@
+{
+  "name": "icici",
+  "country": "in",
+  "localTitle": "ICICI",
+  "engTitle": "ICICI",
+  "url": "https://www.icicibank.com/",
+  "color": "#c01012",
+  "prefixes": [
+    431581,
+    437551,
+    483834
+  ]
+}
