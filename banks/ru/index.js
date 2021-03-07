@@ -25,7 +25,7 @@ module.exports = [
   require("./vozrozhdenie"),
   require("./vpb"),
   require("./vtb24"),
-  require("./yandex"),
+  require("./yoomoney"),
   require("./openbank"),
   require("./homecredit")
 ];
