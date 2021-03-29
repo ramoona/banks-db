@@ -1,4 +1,7 @@
 # Banks DB
+
+![](https://ramoona.github.io/banks-db-demo//assets/logo.svg)
+
 [![Build Status](https://img.shields.io/travis/ramoona/banks-db/master.svg?style=flat-square)](https://travis-ci.org/ramoona/banks-db)
 [![Latest Stable Version](https://img.shields.io/npm/v/banks-db.svg?style=flat-square)](https://www.npmjs.com/package/banks-db)
 [![NPM Downloads](https://img.shields.io/npm/dm/banks-db.svg?style=flat-square)](https://www.npmjs.com/package/banks-db)
@@ -6,10 +9,8 @@
 Returns bank's name and brand color by bankcard prefix (BIN).
 
 It is useful on billing pages to use bank’s brand color when user starts to type card number.
-
-<img src="https://ramoona.github.io/banks-db-demo/demo-example.jpg"
-     alt="banks-db usage example"
-     width="500px" height="500px" />
+   
+![](https://ramoona.github.io/banks-db-demo/assets/usage.gif)
 
 It's a community driven database, so it can potentially contains mistakes. It's not a problem for UX enhancement,
 but you must not use Banks DB in your billing logic.
