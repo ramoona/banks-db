@@ -13,5 +13,6 @@ module.exports = [
   require('./revolut'),
   require('./santander'),
   require('./soldo'),
-  require('./tsb')
+  require('./tsb'),
+  require('./wise')
 ];
