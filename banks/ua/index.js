@@ -14,5 +14,6 @@ module.exports = [
   require('./ukrgasbank'),
   require('./ukrsibbank'),
   require('./ukrsotsbank'),
-  require('./unicreditbank')
+  require('./unicreditbank'),
+  require('./monobank')
 ];
