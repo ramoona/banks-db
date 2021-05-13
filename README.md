@@ -1,5 +1,3 @@
-# Banks DB
-
 ![](https://ramoona.github.io/banks-db-demo//assets/logo.svg)
 
 [![Build Status](https://img.shields.io/travis/ramoona/banks-db/master.svg?style=flat-square)](https://travis-ci.org/ramoona/banks-db)
