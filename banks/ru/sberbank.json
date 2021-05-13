@@ -1,8 +1,8 @@
 {
   "name": "sberbank",
   "country": "ru",
-  "localTitle": "Сбербанк",
-  "engTitle": "Sberbank",
+  "localTitle": "СберБанк",
+  "engTitle": "SberBank",
   "url": "https://www.sberbank.ru",
   "color": "#309c0b",
   "prefixes": [
