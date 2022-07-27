@@ -8,7 +8,6 @@ module.exports = [
   require("./qiwi"),
   require("./raiffeisen"),
   require("./renaissance"),
-  require("./rocketbank"),
   require("./rosbank"),
   require("./rosevrobank"),
   require("./rsb"),
