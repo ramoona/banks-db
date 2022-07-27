@@ -4,7 +4,6 @@ module.exports = [
   require("./avangard"),
   require("./citibank"),
   require("./gazprombank"),
-  require("./mdm"),
   require("./promsvyazbank"),
   require("./qiwi"),
   require("./raiffeisen"),
