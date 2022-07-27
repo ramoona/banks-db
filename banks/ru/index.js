@@ -9,7 +9,6 @@ module.exports = [
   require("./raiffeisen"),
   require("./renaissance"),
   require("./rosbank"),
-  require("./rosevrobank"),
   require("./rsb"),
   require("./sberbank"),
   require("./siab"),
