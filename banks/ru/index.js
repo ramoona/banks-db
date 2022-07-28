@@ -18,7 +18,7 @@ module.exports = [
   require("./unicreditbank"),
   require("./uralsibbank"),
   require("./vozrozhdenie"),
-  require("./vtb24"),
+  require("./vtb.json"),
   require("./yoomoney"),
   require("./openbank"),
   require("./homecredit")
