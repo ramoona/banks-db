@@ -18,7 +18,6 @@ module.exports = [
   require("./unicreditbank"),
   require("./uralsibbank"),
   require("./vozrozhdenie"),
-  require("./vpb"),
   require("./vtb24"),
   require("./yoomoney"),
   require("./openbank"),
