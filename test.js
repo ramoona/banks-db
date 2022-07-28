@@ -11,7 +11,7 @@ test('returns card type', () => expect(findBank('5211784563802833').type).toBe('
 
 test('finds bank by first 6 symbols', () => expect(findBank('5211784563802833').name).toBe('alfabank'));
 
-test('finds bank by first 5 symbols', () => expect(findBank('4622384563802833').name).toBe('vtb24'));
+test('finds bank by first 5 symbols', () => expect(findBank('4622384563802833').name).toBe('vtb'));
 
 test('returns false on unknown bank', () => expect(findBank('4111111111111111').name).toBeUndefined());
 
@@ -37,6 +37,6 @@ test('returns all banks data', () => expect(Array.isArray(findBank.data)).toBeTr
 
 test('returns only specified banks', () => expect(BanksDB.data.length).toEqual(ruBanksData.length));
 
-test('finds bank in specified banks', () => expect(BanksDB.findBank('4622384563802833').name).toBe('vtb24'));
+test('finds bank in specified banks', () => expect(BanksDB.findBank('4622384563802833').name).toBe('vtb'));
 
 /* eslint-enable no-undef */
