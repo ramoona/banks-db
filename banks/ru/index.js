@@ -15,7 +15,6 @@ module.exports = [
   require("./sovcombank"),
   require("./tinkoff"),
   require("./trust"),
-  require("./uniastrumbank"),
   require("./unicreditbank"),
   require("./uralsibbank"),
   require("./vozrozhdenie"),
