@@ -1,5 +1,6 @@
 module.exports = [
   require('./anz'),
+  require('./bankaust'),
   require('./bwe'),
   require('./cba'),
   require('./go'),
