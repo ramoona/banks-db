@@ -1,0 +1,14 @@
+{
+  "name": "halyk",
+  "country": "kz",
+  "localTitle": "Народный банк Казахстана",
+  "engTitle": "Halyk Bank",
+  "url": "https://halykbank.kz/",
+  "color": "#008fb4",
+  "prefixes": [
+    400303,
+    440564,
+    440563,
+    557834
+  ]
+}
