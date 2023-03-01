@@ -1,0 +1,11 @@
+{
+  "name": "bankaust",
+  "country": "au",
+  "localTitle": "Bank Australia",
+  "engTitle": "Bank Australia",
+  "url": "https://www.bankaust.com.au/",
+  "color": "#dc188b",
+  "prefixes": [
+    443460
+  ]
+}
