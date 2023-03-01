@@ -1,0 +1,12 @@
+{
+  "name": "berekebank",
+  "country": "kz",
+  "localTitle": "БерекеБанк",
+  "engTitle": "Berekebank",
+  "url": "https://berekebank.kz/",
+  "color": "#309c0b",
+  "prefixes": [
+    426344,
+    426343
+  ]
+}
