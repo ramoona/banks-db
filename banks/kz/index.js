@@ -1,5 +1,6 @@
 module.exports = [
   require('./bcc'),
-  require('./kazkom'),
-  require('./sberbank')
+  require('./halyk'),
+  require('./bereke'),
+  require('./jusan')
 ];
