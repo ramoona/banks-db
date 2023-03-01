@@ -1,12 +1,11 @@
 {
   "name": "yoomoney",
   "country": "ru",
-  "localTitle": "Ю.Money",
+  "localTitle": "ЮMoney",
   "engTitle": "YooMoney",
   "url": "https://yoomoney.ru/",
   "color": "#8b3ffd",
   "prefixes": [
-    510621,
-    518901
+    220412
   ]
 }

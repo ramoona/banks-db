@@ -3,10 +3,13 @@
   "country": "ru",
   "localTitle": "УралСиб Банк",
   "engTitle": "UralSib Bank",
-  "url": "https://www.bankuralsib.ru/",
+  "url": "https://www.uralsib.ru/",
   "color": "#53b548",
   "prefixes": [
     424204,
-    440666
+    424205,
+    424473,
+    440666,
+    470342
   ]
 }
