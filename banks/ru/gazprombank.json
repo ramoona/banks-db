@@ -6,6 +6,8 @@
   "url": "http://gazprombank.ru/",
   "color": "#00448b",
   "prefixes": [
+    220001,
+    356299,
     487415,
     677585
   ]
