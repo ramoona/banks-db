@@ -6,5 +6,6 @@ module.exports = [
   require('./go'),
   require('./ing'),
   require('./lom'),
-  require('./suncorp')
+  require('./suncorp'),
+  require('./up')
 ];
