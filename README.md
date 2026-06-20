@@ -1,8 +1,17 @@
 ![](https://ramoona.github.io/banks-db-demo//assets/logo.svg)
 
-[![Build Status](https://img.shields.io/travis/ramoona/banks-db/master.svg?style=flat-square)](https://travis-ci.org/ramoona/banks-db)
-[![Latest Stable Version](https://img.shields.io/npm/v/banks-db.svg?style=flat-square)](https://www.npmjs.com/package/banks-db)
-[![NPM Downloads](https://img.shields.io/npm/dm/banks-db.svg?style=flat-square)](https://www.npmjs.com/package/banks-db)
+
+  > [!WARNING]
+  > **This project is no longer maintained** (archived June 2026)
+  >
+  > This repository has been archived and is now read-only. No further updates, bug fixes, or support will be provided.
+  >
+  > **Want to continue this project?** Feel free to fork this repository and maintain your own version.
+  > 
+  > If you're looking for an actively maintained BIN database, consider:
+  > - [binlist.net](https://binlist.net/) - Free BIN/IIN lookup API
+  > - [bincodes.com](https://bincodes.com/) - Comprehensive BIN database
+  > - Or build your own using data from payment networks
 
 Returns bank's name and brand color by bankcard prefix (BIN).
 
